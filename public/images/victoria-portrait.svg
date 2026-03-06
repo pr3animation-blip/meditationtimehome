@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait illustration of Victoria Enriquez</title>
+  <desc id="desc">Stylized portrait card used on the about page for local business profile visibility.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6efe3"/>
+      <stop offset="100%" stop-color="#d6e2d2"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#bg)"/>
+  <circle cx="450" cy="360" r="170" fill="#f0c6a0"/>
+  <rect x="230" y="520" width="440" height="360" rx="220" fill="#b78966"/>
+  <path d="M280 330 Q450 120 620 330" fill="#6f5647"/>
+  <circle cx="390" cy="350" r="10" fill="#5a4639"/>
+  <circle cx="510" cy="350" r="10" fill="#5a4639"/>
+  <path d="M400 430 Q450 470 500 430" stroke="#7a5848" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <text x="450" y="960" text-anchor="middle" fill="#425042" font-size="44" font-family="Georgia, serif">Victoria Enriquez</text>
+  <text x="450" y="1010" text-anchor="middle" fill="#556355" font-size="30" font-family="Georgia, serif">Energy Healing Practitioner</text>
+</svg>

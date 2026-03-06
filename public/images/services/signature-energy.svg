@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Signature energy session</title>
+  <desc id="desc">Abstract layered forms representing the three modalities in the signature session.</desc>
+  <rect width="1200" height="700" fill="#f1e8db"/>
+  <rect x="120" y="140" width="280" height="420" rx="36" fill="#c7d7bf"/>
+  <rect x="460" y="140" width="280" height="420" rx="36" fill="#e8cba6"/>
+  <rect x="800" y="140" width="280" height="420" rx="36" fill="#b8ccb2"/>
+  <text x="600" y="90" text-anchor="middle" fill="#4e5b4f" font-size="48" font-family="Georgia, serif">Signature Energy Session</text>
+  <text x="260" y="610" text-anchor="middle" fill="#4a564b" font-size="30" font-family="Georgia, serif">Body Rub</text>
+  <text x="600" y="610" text-anchor="middle" fill="#4a564b" font-size="30" font-family="Georgia, serif">Dermal</text>
+  <text x="940" y="610" text-anchor="middle" fill="#4a564b" font-size="30" font-family="Georgia, serif">Fingertip</text>
+</svg>

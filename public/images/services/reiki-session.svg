@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Reiki healing session</title>
+  <desc id="desc">Illustrated hands and healing waves representing Reiki service.</desc>
+  <rect width="1200" height="700" fill="#f7efe5"/>
+  <circle cx="240" cy="160" r="120" fill="#d8e2d2"/>
+  <circle cx="980" cy="540" r="140" fill="#efe1cf"/>
+  <path d="M200 440 Q600 250 1000 440" stroke="#8fa78f" stroke-width="36" fill="none" opacity="0.7"/>
+  <path d="M230 520 Q600 360 970 520" stroke="#a8bc9f" stroke-width="28" fill="none" opacity="0.75"/>
+  <text x="80" y="100" fill="#4d5b4d" font-size="50" font-family="Georgia, serif">USUI Reiki Session</text>
+</svg>

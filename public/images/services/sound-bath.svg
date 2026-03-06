@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Healing sound bath session</title>
+  <desc id="desc">Crystal bowl inspired waves for sound bath service imagery.</desc>
+  <rect width="1200" height="700" fill="#e6efe8"/>
+  <circle cx="600" cy="350" r="210" fill="#f3dfc4"/>
+  <circle cx="600" cy="350" r="160" fill="none" stroke="#9bb59c" stroke-width="18"/>
+  <circle cx="600" cy="350" r="110" fill="none" stroke="#7e9c7f" stroke-width="14"/>
+  <path d="M140 350 Q600 250 1060 350" stroke="#6f8f71" stroke-width="20" fill="none" opacity="0.6"/>
+  <path d="M140 410 Q600 310 1060 410" stroke="#87a789" stroke-width="16" fill="none" opacity="0.65"/>
+  <text x="600" y="110" text-anchor="middle" fill="#4b5a4d" font-size="48" font-family="Georgia, serif">Healing Sound Bath</text>
+</svg>

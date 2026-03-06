@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Meditation and wellness article illustration</title>
+  <desc id="desc">Abstract illustration used as featured image for blog posts.</desc>
+  <rect width="1200" height="700" fill="#f4ebdd"/>
+  <circle cx="320" cy="310" r="220" fill="#d6e2d2"/>
+  <circle cx="880" cy="380" r="200" fill="#edd7b9"/>
+  <path d="M120 550 Q600 430 1080 550" stroke="#8ea58f" stroke-width="24" fill="none" opacity="0.6"/>
+  <text x="80" y="110" fill="#4a574a" font-size="50" font-family="Georgia, serif">Meditation and Wellness</text>
+  <text x="80" y="165" fill="#5d6a5d" font-size="32" font-family="Georgia, serif">Articles by Victoria Enriquez</text>
+</svg>

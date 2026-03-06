@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="980" viewBox="0 0 700 980" role="img" aria-labelledby="title desc">
+  <title id="title">Inviting Solitude into your Life book cover</title>
+  <desc id="desc">Book cover illustration for Inviting Solitude into your Life.</desc>
+  <rect width="700" height="980" fill="#dde7d8"/>
+  <path d="M100 720 C220 540 480 540 600 720" fill="#c8d8c1"/>
+  <circle cx="350" cy="450" r="150" fill="#f0ddbf"/>
+  <text x="350" y="210" text-anchor="middle" fill="#445345" font-size="48" font-family="Georgia, serif">Inviting Solitude</text>
+  <text x="350" y="270" text-anchor="middle" fill="#445345" font-size="38" font-family="Georgia, serif">into your Life</text>
+  <text x="350" y="790" text-anchor="middle" fill="#5a695b" font-size="30" font-family="Georgia, serif">Victoria Enriquez</text>
+</svg>
