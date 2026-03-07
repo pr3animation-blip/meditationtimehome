@@ -105,6 +105,7 @@ export default function ServicesPage() {
                     icon={icon}
                     size={28}
                     className="text-primary"
+                    aria-hidden="true"
                   />
                 </div>
               </ScrollReveal>
@@ -318,6 +319,7 @@ export default function ServicesPage() {
                         icon={icon}
                         size={24}
                         className="text-primary"
+                        aria-hidden="true"
                       />
                     </div>
                     <h3 className="font-serif text-lg font-medium leading-snug">
@@ -325,7 +327,7 @@ export default function ServicesPage() {
                     </h3>
                     <p className="mt-2 flex-1 text-sm leading-relaxed text-muted-foreground">
                       {page.description.length > 120
-                        ? page.description.slice(0, 120) + "..."
+                        ? page.description.slice(0, 120) + "\u2026"
                         : page.description}
                     </p>
                     <span className="mt-4 inline-flex items-center text-sm font-medium text-primary transition-colors group-hover:text-primary/80">

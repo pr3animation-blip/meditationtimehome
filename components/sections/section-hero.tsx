@@ -31,18 +31,18 @@ export function SectionHero({
         alt=""
         fill
         priority
-        aria-hidden
+        aria-hidden="true"
         className="object-cover object-center opacity-80"
         sizes="100vw"
       />
       <div className="absolute inset-0 bg-background/42" />
       <div className="hero-gradient absolute inset-0" />
       <div
-        aria-hidden
+        aria-hidden="true"
         className="pointer-events-none absolute inset-x-0 bottom-0 h-48 bg-gradient-to-b from-transparent via-background/38 to-background"
       />
       <div
-        aria-hidden
+        aria-hidden="true"
         className="pointer-events-none absolute inset-x-[18%] bottom-2 h-20 rounded-full bg-background/55 blur-3xl"
       />
 

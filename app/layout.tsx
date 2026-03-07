@@ -56,8 +56,17 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${outfit.variable} ${cormorant.variable}`}>
+    <html lang="en" className={`${outfit.variable} ${cormorant.variable}`} style={{ colorScheme: "light" }}>
+      <head>
+        <meta name="theme-color" content="#f9f8f6" />
+      </head>
       <body className="font-sans antialiased">
+        <a
+          href="#main"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-background focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:shadow-lg focus:ring-2 focus:ring-ring"
+        >
+          Skip to content
+        </a>
         <PageShell>{children}</PageShell>
       </body>
     </html>

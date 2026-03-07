@@ -40,7 +40,7 @@ export function SiteHeader() {
           }}
           aria-label="Open menu"
         >
-          <HugeiconsIcon icon={Menu01Icon} size={20} />
+          <HugeiconsIcon icon={Menu01Icon} size={20} aria-hidden="true" />
         </Button>
 
         {/* Logo — centered on mobile, left-aligned on desktop */}
@@ -52,6 +52,7 @@ export function SiteHeader() {
             icon={Yoga01Icon}
             size={28}
             className="text-sidebar-primary"
+            aria-hidden="true"
           />
           <BrandWordmark className="font-serif text-xl font-semibold tracking-tight" />
         </Link>

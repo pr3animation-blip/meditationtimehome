@@ -40,11 +40,11 @@ export function TestimonialCarousel({
         </ScrollReveal>
 
         <div className="relative mx-auto mt-12 max-w-3xl">
-          <div className="absolute -left-4 -top-4 font-serif text-8xl leading-none text-primary/10 select-none">
+          <div className="absolute -left-4 -top-4 font-serif text-8xl leading-none text-primary/10 select-none" aria-hidden="true">
             &ldquo;
           </div>
 
-          <div className="relative min-h-[200px]">
+          <div className="relative min-h-[200px]" aria-live="polite" aria-atomic="true">
             {testimonials.map((testimonial, index) => (
               <div
                 key={testimonial.author}

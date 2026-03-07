@@ -30,7 +30,8 @@ export function ContactForm() {
         <Label htmlFor="name">Name</Label>
         <Input
           id="name"
-          placeholder="Your name"
+          placeholder="Your name…"
+          autoComplete="name"
           value={formData.name}
           onChange={(e) =>
             setFormData((prev) => ({ ...prev, name: e.target.value }))
@@ -43,7 +44,9 @@ export function ContactForm() {
         <Input
           id="email"
           type="email"
-          placeholder="your@email.com"
+          placeholder="your@email.com…"
+          autoComplete="email"
+          spellCheck={false}
           value={formData.email}
           onChange={(e) =>
             setFormData((prev) => ({ ...prev, email: e.target.value }))
@@ -56,7 +59,8 @@ export function ContactForm() {
         <Input
           id="phone"
           type="tel"
-          placeholder="(602) 000-0000"
+          placeholder="(602) 000-0000…"
+          autoComplete="tel"
           value={formData.phone}
           onChange={(e) =>
             setFormData((prev) => ({ ...prev, phone: e.target.value }))
@@ -67,7 +71,7 @@ export function ContactForm() {
         <Label htmlFor="message">Message</Label>
         <Textarea
           id="message"
-          placeholder="How can we help you?"
+          placeholder="How can we help you…"
           rows={5}
           value={formData.message}
           onChange={(e) =>

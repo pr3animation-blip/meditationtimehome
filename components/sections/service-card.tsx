@@ -42,7 +42,7 @@ export function ServiceCard({ service }: ServiceCardProps) {
       <CardHeader className="pb-3">
         <div className="mb-3 flex items-center justify-between">
           <div className="flex size-12 items-center justify-center rounded-xl bg-primary/10">
-            <HugeiconsIcon icon={icon} size={24} className="text-primary" />
+            <HugeiconsIcon icon={icon} size={24} className="text-primary" aria-hidden="true" />
           </div>
           <Badge variant="secondary" className="font-semibold">
             {service.price}

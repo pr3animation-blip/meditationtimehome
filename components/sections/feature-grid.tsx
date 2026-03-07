@@ -50,7 +50,7 @@ export function FeatureGrid({ items, columns = 4 }: FeatureGridProps) {
           >
             {icon && (
               <div className="mb-3 flex size-10 items-center justify-center rounded-lg bg-primary/10">
-                <HugeiconsIcon icon={icon} size={20} className="text-primary" />
+                <HugeiconsIcon icon={icon} size={20} className="text-primary" aria-hidden="true" />
               </div>
             )}
             <h3 className="font-serif text-lg font-medium">{item.title}</h3>

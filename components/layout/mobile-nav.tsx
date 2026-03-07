@@ -68,6 +68,7 @@ export function MobileNav({ open, onOpenChange }: MobileNavProps) {
                     icon={icon}
                     size={24}
                     className="text-sidebar-primary"
+                    aria-hidden="true"
                   />
                 )}
                 <span className="text-sm font-medium">{item.title}</span>
@@ -90,7 +91,7 @@ export function MobileNav({ open, onOpenChange }: MobileNavProps) {
               />
             }
           >
-            <HugeiconsIcon icon={Calendar03Icon} size={18} className="mr-2" />
+            <HugeiconsIcon icon={Calendar03Icon} size={18} className="mr-2" aria-hidden="true" />
             Book a Session
           </Button>
         </div>
