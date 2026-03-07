@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { Cormorant_Garamond, Outfit } from "next/font/google"
 import "./globals.css"
 import { PageShell } from "@/components/layout/page-shell"
+import { ScrollToTop } from "@/components/scroll-to-top"
 import { siteConfig } from "@/config/navigation"
 import { buildMetaDescription } from "@/lib/seo"
 
@@ -67,6 +68,7 @@ export default function RootLayout({
         >
           Skip to content
         </a>
+        <ScrollToTop />
         <PageShell>{children}</PageShell>
       </body>
     </html>
