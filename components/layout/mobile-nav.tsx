@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { HugeiconsIcon } from "@hugeicons/react"
-import type { IconSvgObject } from "@hugeicons/react"
+import type { IconSvgElement } from "@hugeicons/react"
 import {
   Home01Icon,
   UserCircleIcon,
@@ -20,7 +20,7 @@ import {
 import { Button } from "@/components/ui/button"
 import { mainNavItems, siteConfig } from "@/config/navigation"
 
-const navIcons: Record<string, IconSvgObject> = {
+const navIcons: Record<string, IconSvgElement> = {
   "/": Home01Icon,
   "/about": UserCircleIcon,
   "/services": SparklesIcon,

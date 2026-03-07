@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import Link from "next/link"
 import Image from "next/image"
+import type { Service } from "@/types/navigation"
 import { Button } from "@/components/ui/button"
 import { PageHero } from "@/components/sections/page-hero"
 import { JsonLd } from "@/components/seo/json-ld"
@@ -17,7 +18,7 @@ interface LandingPageProps {
   params: Promise<{ slug: string }>
 }
 
-const stillNotSure = {
+const stillNotSure: Service = {
   slug: "still-not-sure",
   name: "Still Not Sure?",
   description:
