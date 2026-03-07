@@ -3,6 +3,7 @@
 import { Button as ButtonPrimitive } from "@base-ui/react/button"
 import { cva, type VariantProps } from "class-variance-authority"
 
+import { haptic } from "@/lib/haptic/haptic"
 import { cn } from "@/lib/utils"
 
 const buttonVariants = cva(
@@ -41,14 +42,21 @@ function Button({
   size = "default",
   nativeButton,
   render,
+  onClick,
   ...props
 }: ButtonPrimitive.Props & VariantProps<typeof buttonVariants>) {
+  const handleClick = (e: React.MouseEvent<HTMLButtonElement> & { preventBaseUIHandler: () => void }) => {
+    haptic()
+    onClick?.(e)
+  }
+
   return (
     <ButtonPrimitive
       data-slot="button"
       className={cn(buttonVariants({ variant, size, className }))}
       nativeButton={nativeButton ?? (render ? false : undefined)}
       render={render}
+      onClick={handleClick}
       {...props}
     />
   )
