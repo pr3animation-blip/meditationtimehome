@@ -10,7 +10,7 @@ import { buildMetaDescription } from "@/lib/seo"
 export const metadata: Metadata = {
   title: "About Victoria Enriquez - Energy Healer in Chandler, AZ",
   description: buildMetaDescription(
-    "Meet Victoria Enriquez, a certified Reiki and sound healing practitioner in Chandler, Arizona, and learn the mission behind MEditation Time Home."
+    "Meet Victoria Enriquez, a certified Reiki and sound healing practitioner in Chandler, Arizona, and learn the mission behind Meditation TIME Home."
   ),
   alternates: {
     canonical: "/about",
@@ -31,7 +31,7 @@ export default function AboutPage() {
           <ScrollReveal className="mx-auto mb-12 max-w-md">
             <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-border/60 shadow-sm">
               <Image
-                src="/images/victoria-portrait.svg"
+                src="/images/new images/about-photo.webp"
                 alt="Portrait illustration of Victoria Enriquez, energy healer in Chandler, Arizona"
                 fill
                 className="object-cover"

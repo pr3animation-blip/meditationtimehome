@@ -32,7 +32,7 @@ export default function OpenGraphImage() {
             opacity: 0.88,
           }}
         >
-          MEditation Time Home
+          Meditation TIME Home
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
           <div style={{ fontSize: 68, lineHeight: 1.1, maxWidth: 900 }}>

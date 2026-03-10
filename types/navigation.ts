@@ -72,3 +72,8 @@ export interface ArizonaPage {
   description: string
   benefits: { title: string; description: string }[]
 }
+
+export interface GalleryPhoto {
+  src: string
+  alt: string
+}

@@ -1,4 +1,4 @@
-import type { Service, Testimonial, Book, ArizonaPage } from "@/types/navigation"
+import type { Service, Testimonial, Book, ArizonaPage, GalleryPhoto } from "@/types/navigation"
 
 export const services: Service[] = [
   {
@@ -98,13 +98,29 @@ export const servicesAddressed = [
   { title: "Life Transitions", description: "Navigate change with grace, clarity, and inner strength.", icon: "sunrise" },
 ]
 
+export const galleryPhotos: GalleryPhoto[] = [
+  { src: "/images/new images/IMG_6766_converted.webp", alt: "Victoria with singing bowls and gong by the pool at sunset" },
+  { src: "/images/new images/IMG_4355_converted.webp", alt: "Victoria leading an outdoor sound bath session" },
+  { src: "/images/new images/IMG_4252_converted.webp", alt: "Victoria in her studio with crystal singing bowls" },
+  { src: "/images/new images/IMG_4853_converted.webp", alt: "Setting up for an in-home sound healing session" },
+  { src: "/images/new images/IMG_1164 (1).webp", alt: "Crystal singing bowls arranged for a healing session" },
+  { src: "/images/new images/IMG_5355_converted.webp", alt: "Crystal singing bowls on wooden shelf with mallets" },
+  { src: "/images/new images/IMG_2766.webp", alt: "Victoria exploring the red rocks of Sedona, Arizona" },
+  { src: "/images/new images/IMG_6483_converted.webp", alt: "Horseback riding in the ocean on a sunny day" },
+  { src: "/images/new images/IMG_7217_converted.webp", alt: "Victoria in a prayer pose" },
+  { src: "/images/new images/IMG_5253_converted.webp", alt: "Victoria portrait with warm golden tones" },
+  { src: "/images/new images/IMG_2212.webp", alt: "Victoria at her desk" },
+  { src: "/images/new images/bLOG pHOTO.webp", alt: "Ocean deck at sunset" },
+  { src: "/images/new images/about-photo.webp", alt: "Victoria Enriquez, energy healer in Chandler, Arizona" },
+]
+
 export const arizonaPages: ArizonaPage[] = [
   {
     title: "Anxiety Treatment Centers in Chandler, AZ",
     slug: "anxiety-treatment-in-chandler",
     heading: "Overcome Anxiety with Sound Healing and Meditation",
     description:
-      "MEditation Time Home offers anxiety treatment through meditation and sound healing practices in Chandler, Arizona. Our approach addresses anxiety's root causes by helping clients calm their mind and foster inner peace through proven holistic techniques.",
+      "Meditation TIME Home offers anxiety treatment through meditation and sound healing practices in Chandler, Arizona. Our approach addresses anxiety's root causes by helping clients calm their mind and foster inner peace through proven holistic techniques.",
     benefits: [
       { title: "Reduced Anxiety Symptoms", description: "Experience a noticeable decrease in anxiety through regular sound healing and meditation sessions." },
       { title: "Calmer Mind", description: "Learn techniques to quiet racing thoughts and find mental peace." },
@@ -130,7 +146,7 @@ export const arizonaPages: ArizonaPage[] = [
     slug: "reiki-energy-healing-session-in-chandler",
     heading: "Restore Balance with Reiki Energy Healing",
     description:
-      "Experience the transformative power of USUI Reiki with Victoria at MEditation Time Home in Chandler, Arizona. Reiki promotes healing by encouraging a healthy flow of energy, helping to balance your chakras and restore your body's natural equilibrium.",
+      "Experience the transformative power of USUI Reiki with Victoria at Meditation TIME Home in Chandler, Arizona. Reiki promotes healing by encouraging a healthy flow of energy, helping to balance your chakras and restore your body's natural equilibrium.",
     benefits: [
       { title: "Energy Balance", description: "Restore the natural flow of energy throughout your body's chakra system." },
       { title: "Deep Relaxation", description: "Enter a state of profound calm that promotes natural healing." },
@@ -143,7 +159,7 @@ export const arizonaPages: ArizonaPage[] = [
     slug: "chakra-healing-meditation-in-chandler",
     heading: "Align Your Energy with Chakra Healing Meditation",
     description:
-      "Discover the power of chakra healing meditation at MEditation Time Home in Chandler, Arizona. Our sessions help you identify and clear energy blockages, restoring balance and harmony to your mind, body, and spirit.",
+      "Discover the power of chakra healing meditation at Meditation TIME Home in Chandler, Arizona. Our sessions help you identify and clear energy blockages, restoring balance and harmony to your mind, body, and spirit.",
     benefits: [
       { title: "Chakra Alignment", description: "Balance all seven major energy centers for optimal well-being." },
       { title: "Increased Vitality", description: "Feel more energized and alive as blocked energy is released." },

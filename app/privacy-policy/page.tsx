@@ -3,7 +3,7 @@ import { PageHero } from "@/components/sections/page-hero"
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "Privacy policy and website disclaimer for MEditation Time Home.",
+  description: "Privacy policy and website disclaimer for Meditation TIME Home.",
   alternates: {
     canonical: "/privacy-policy",
   },
@@ -24,7 +24,7 @@ export default function PrivacyPolicyPage() {
             </p>
             <p className="text-muted-foreground leading-relaxed">
               All content serves informational purposes only. Victoria Enriquez
-              and MEditation Time make no claims regarding accuracy of information
+              and Meditation TIME make no claims regarding accuracy of information
               presented and reserve the right to modify content without notice.
             </p>
             <p className="text-muted-foreground leading-relaxed">
@@ -50,7 +50,7 @@ export default function PrivacyPolicyPage() {
             <p className="text-muted-foreground leading-relaxed">
               We do not sell, trade, or share your personal information with
               third parties. Your data is stored securely and accessed only by
-              Victoria Enriquez and authorized staff at MEditation Time Home.
+              Victoria Enriquez and authorized staff at Meditation TIME Home.
             </p>
           </div>
 
@@ -60,7 +60,7 @@ export default function PrivacyPolicyPage() {
               This website may contain links to third-party services such as
               Calendly for scheduling and Amazon for book purchases. These
               services have their own privacy policies and we encourage you to
-              review them. MEditation Time Home is not responsible for the
+              review them. Meditation TIME Home is not responsible for the
               privacy practices of external websites.
             </p>
           </div>

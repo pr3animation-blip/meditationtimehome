@@ -27,7 +27,7 @@ export async function generateMetadata({
   return {
     title: `Meditation and Wellness Blog - Page ${page}`,
     description: buildMetaDescription(
-      `Browse page ${page} of meditation, sound healing, and Reiki articles from MEditation Time Home.`
+      `Browse page ${page} of meditation, sound healing, and Reiki articles from Meditation TIME Home.`
     ),
     alternates: {
       canonical: `/blog/page/${page}`,

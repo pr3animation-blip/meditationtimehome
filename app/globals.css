@@ -232,15 +232,15 @@
     letter-spacing: -0.01em;
   }
 
-  .brand-wordmark-me {
+  .brand-wordmark-accent {
     position: relative;
     display: inline-block;
-    margin-right: 0.015em;
+    margin-left: 0.015em;
     padding-right: 0.01em;
   }
 
-  .brand-wordmark-me::before,
-  .brand-wordmark-me::after {
+  .brand-wordmark-accent::before,
+  .brand-wordmark-accent::after {
     content: "";
     position: absolute;
     left: -0.05em;
@@ -251,14 +251,14 @@
     transform-origin: left center;
   }
 
-  .brand-wordmark-me::after {
+  .brand-wordmark-accent::after {
     bottom: -0.12em;
     height: 0.3em;
     transform: rotate(-2.4deg);
     opacity: 0.92;
   }
 
-  .brand-wordmark-me::before {
+  .brand-wordmark-accent::before {
     bottom: -0.06em;
     height: 0.26em;
     transform: rotate(1.2deg) scaleX(0.97);

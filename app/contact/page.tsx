@@ -27,7 +27,7 @@ const faqItems = [
 ]
 
 const contactDescription = buildMetaDescription(
-  "Contact MEditation Time Home in Chandler, Arizona to ask questions or schedule Reiki, meditation, and sound healing sessions with Victoria."
+  "Contact Meditation TIME Home in Chandler, Arizona to ask questions or schedule Reiki, meditation, and sound healing sessions with Victoria."
 )
 
 export const metadata: Metadata = {

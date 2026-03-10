@@ -52,7 +52,7 @@ export default function Home() {
           <div className="relative mx-auto aspect-[16/9] max-w-5xl overflow-hidden rounded-2xl border border-border/60 shadow-sm">
             <Image
               src="/images/generated/home-intro-healing.webp"
-              alt="Healing and meditation studio atmosphere at MEditation Time Home in Chandler, Arizona"
+              alt="Healing and meditation studio atmosphere at Meditation TIME Home in Chandler, Arizona"
               fill
               className="object-cover"
               sizes="(max-width: 1280px) 100vw, 1120px"

@@ -1,7 +1,7 @@
 import type { NavItem, FooterSection, SiteConfig } from "@/types/navigation"
 
 export const siteConfig: SiteConfig = {
-  name: "MEditation Time",
+  name: "Meditation TIME",
   description:
     "Discover Reiki, sound healing, and meditation sessions with Victoria Enriquez in Chandler, Arizona to relieve stress, restore balance, and support your wellness journey.",
   phone: "602-754-6739",
@@ -21,6 +21,7 @@ export const mainNavItems: NavItem[] = [
   { title: "About", href: "/about" },
   { title: "Services", href: "/services" },
   { title: "Shop", href: "/shop" },
+  { title: "Gallery", href: "/gallery" },
   { title: "Blog", href: "/blog" },
   { title: "Contact", href: "/contact" },
 ]
@@ -38,6 +39,7 @@ export const footerSections: FooterSection[] = [
     title: "Explore",
     links: [
       { title: "About", href: "/about" },
+      { title: "Gallery", href: "/gallery" },
       { title: "Blog", href: "/blog" },
       { title: "Shop", href: "/shop" },
     ],

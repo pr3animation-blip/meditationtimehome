@@ -27,7 +27,7 @@ export function ServiceCard({ service }: ServiceCardProps) {
   const icon = iconMap[service.icon] ?? HandPrayerIcon
 
   return (
-    <Card className="group relative flex h-full flex-col overflow-hidden border-border/50 bg-card shadow-sm transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/5">
+    <Card className={`group relative flex h-full flex-col overflow-hidden border-border/50 bg-card shadow-sm transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/5${service.imageSrc ? " pt-0" : ""}`}>
       {service.imageSrc && (
         <div className="relative aspect-[16/9] w-full border-b border-border/50">
           <Image

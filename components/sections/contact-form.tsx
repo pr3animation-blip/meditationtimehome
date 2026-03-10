@@ -17,7 +17,7 @@ export function ContactForm() {
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
-    const subject = encodeURIComponent("Inquiry from MEditation Time Website")
+    const subject = encodeURIComponent("Inquiry from Meditation TIME Website")
     const body = encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\n\nMessage:\n${formData.message}`
     )

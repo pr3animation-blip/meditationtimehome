@@ -38,7 +38,7 @@ export default function BlogPage() {
               Whether you are just beginning your healing journey or looking
               to deepen your practice, these posts share practical tips,
               personal insights, and the science behind the modalities
-              offered at MEditation Time Home in Chandler, Arizona.
+              offered at Meditation TIME Home in Chandler, Arizona.
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

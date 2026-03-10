@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   title: {
-    default: "Sound Healing and Reiki in Chandler, AZ | MEditation Time Home",
+    default: "Sound Healing and Reiki in Chandler, AZ | Meditation TIME Home",
     template: `%s | ${siteConfig.name}`,
   },
   description: buildMetaDescription(siteConfig.description),
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     type: "website",
     locale: "en_US",
-    title: "Sound Healing and Reiki in Chandler, AZ | MEditation Time Home",
+    title: "Sound Healing and Reiki in Chandler, AZ | Meditation TIME Home",
     description: buildMetaDescription(siteConfig.description),
     url: "https://meditationtimehome.com",
     images: [
@@ -39,13 +39,13 @@ export const metadata: Metadata = {
         url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: "MEditation Time Home in Chandler, Arizona",
+        alt: "Meditation TIME Home in Chandler, Arizona",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sound Healing and Reiki in Chandler, AZ | MEditation Time Home",
+    title: "Sound Healing and Reiki in Chandler, AZ | Meditation TIME Home",
     description: buildMetaDescription(siteConfig.description),
     images: ["/opengraph-image"],
   },
