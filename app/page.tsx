@@ -153,7 +153,7 @@ export default function Home() {
                 rel="noopener noreferrer"
               />
             }
-            aria-label="Book a Free Tuning Fork Chakra Session"
+            aria-label="Book Now"
           >
             Book Now
           </Button>

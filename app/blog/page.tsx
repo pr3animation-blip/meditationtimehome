@@ -26,19 +26,19 @@ export default function BlogPage() {
     <>
       <PageHero
         title="Meditation and Wellness Articles"
-        subtitle="Get updated guidance on meditation, sound healing, Reiki, and holistic wellness"
+        subtitle="Practical guidance on meditation, sound healing, and Reiki from Victoria Enriquez"
       />
 
       <section className="py-16 md:py-24">
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
           <div className="mx-auto mb-12 max-w-3xl text-center">
             <p className="text-lg leading-relaxed text-muted-foreground">
-              Explore articles on meditation, sound healing, Reiki, chakra
-              work, and holistic wellness written by Victoria Enriquez.
-              Whether you are just beginning your healing journey or looking
-              to deepen your practice, these posts share practical tips,
-              personal insights, and the science behind the modalities
-              offered at Meditation TIME Home in Chandler, Arizona.
+              Victoria Enriquez shares what she's learned from years of
+              practicing Reiki, sound healing, and energy work at Meditation
+              TIME Home in Chandler, Arizona. Whether you're new to
+              meditation or looking to deepen your practice, these articles
+              offer practical guidance you can apply today — or experience
+              firsthand in a session.
             </p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

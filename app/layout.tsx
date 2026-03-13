@@ -33,7 +33,6 @@ export const metadata: Metadata = {
     locale: "en_US",
     title: "Sound Healing and Reiki in Chandler, AZ | Meditation TIME Home",
     description: buildMetaDescription(siteConfig.description),
-    url: "https://meditationtimehome.com",
     images: [
       {
         url: "/opengraph-image",

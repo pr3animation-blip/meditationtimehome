@@ -3,7 +3,7 @@ import { PageHero } from "@/components/sections/page-hero"
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "Privacy policy and website disclaimer for Meditation TIME Home.",
+  description: "Privacy policy, website disclaimer, and data handling practices for Meditation TIME Home in Chandler, Arizona. Learn how we protect your personal information.",
   alternates: {
     canonical: "/privacy-policy",
   },

@@ -10,7 +10,7 @@ export const services: Service[] = [
       "I will set the intention on and promoting healing by encouraging a healthy flow of energy. Let me know if there is a specific area you would like addressed as we balance chakras and see how you feel and we can discuss afterwards.",
     longDescription:
       "I will set the intention on and promoting healing by encouraging a healthy flow of energy. Let me know if there is a specific area you would like addressed as we balance chakras and see how you feel and we can discuss afterwards.\n\nReiki is a Japanese technique for stress reduction and relaxation that also promotes healing. It is administered by laying on hands and is based on the idea that an unseen life force energy flows through us. A treatment feels like a wonderful glowing radiance that flows through and around you.",
-    calendlyUrl: "https://calendly.com/meditationtimehome/reiki-session",
+    calendlyUrl: "https://calendly.com/meditationtimehome",
     icon: "reiki",
     imageSrc: "/images/services/reiki-session.webp",
     imageAlt:
@@ -25,7 +25,7 @@ export const services: Service[] = [
       "3 touch modalities relaxing mind body & soul — leave renewed. Or just pick one for 30 min separately.",
     longDescription:
       "Combines three distinct therapeutic modalities designed to relax mind, body, and soul. Clients leave renewed. Individual modalities available separately for 30 minutes.\n\nBody Rub Session: Therapeutic massage using signature techniques. Beginning at the head, working through shoulders, scalp, face, and pressure points before progressing to arms, legs, and feet.\n\nDermal Session: Having your whole body scratched is one decadent royal experience. Using fingernails across the entire body without leaving physical marks — just traces of emotion. Stimulates the middle skin layer.\n\nFingertip Session: Light, feather-like touches across the skin to soothe the epidermis. Light as a feather moving across your skin. Clients may experience tickling sensations and awakened nerve endings.",
-    calendlyUrl: "https://calendly.com/meditationtimehome/signature-energy-session",
+    calendlyUrl: "https://calendly.com/meditationtimehome",
     icon: "energy",
     imageSrc: "/images/services/signature-energy.webp",
     imageAlt:
@@ -40,7 +40,7 @@ export const services: Service[] = [
       "Let the sounds shift your mind into a relaxed trance-like state. Let the sounds make you lose track of time.",
     longDescription:
       "Let the sounds shift your mind into a relaxed trance-like state. Let the sounds make you lose track of time. The noises and relaxed scents truly can make you forget about everything and focus on none other than yourself in the present moment.\n\nSound healing is an ancient wellness practice that uses vibrations from instruments like crystal singing bowls, chimes, and tuning forks to promote deep relaxation and healing. The therapeutic vibrations help reduce stress, enhance mental clarity, and restore emotional balance.",
-    calendlyUrl: "https://calendly.com/meditationtimehome/sound-bath",
+    calendlyUrl: "https://calendly.com/meditationtimehome",
     icon: "sound",
     imageSrc: "/images/services/sound-bath.webp",
     imageAlt:

@@ -63,9 +63,9 @@ export function SiteFooter() {
 
           {footerSections.map((section) => (
             <div key={section.title} className="space-y-3">
-              <h3 className="text-sm font-semibold text-sidebar-foreground/90">
+              <p className="text-sm font-semibold text-sidebar-foreground/90">
                 {section.title}
-              </h3>
+              </p>
               <ul className="space-y-2">
                 {section.links.map((link) => (
                   <li key={link.href}>

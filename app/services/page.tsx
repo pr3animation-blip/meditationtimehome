@@ -11,17 +11,17 @@ import {
   Yoga03Icon,
 } from "@hugeicons/core-free-icons"
 import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
 import { ScrollReveal } from "@/components/animation/scroll-reveal"
 import { FloatingCircle } from "@/components/animation/floating-circle"
 import { PageHero } from "@/components/sections/page-hero"
 import { CtaBanner } from "@/components/sections/cta-banner"
+import { BookingButton } from "@/components/ui/booking-button"
 import { services, arizonaPages } from "@/config/site-data"
 import { siteConfig } from "@/config/navigation"
 import { buildMetaDescription } from "@/lib/seo"
 
 export const metadata: Metadata = {
-  title: "Sound Healing, Reiki and Meditation Services",
+  title: "Healing Services",
   description: buildMetaDescription(
     "Explore Reiki, signature energy work, and sound bath sessions in Chandler, Arizona. Compare service options and reserve your preferred session with Victoria."
   ),
@@ -185,22 +185,12 @@ export default function ServicesPage() {
                     <p className="mt-1 text-center text-sm text-muted-foreground">
                       {service.duration} session
                     </p>
-                    <Button
-                      size="lg"
-                      className="mt-6 w-full"
-                      render={
-                        <Link
-                          href={service.calendlyUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        />
-                      }
-                    >
-                      Book Now
-                    </Button>
-                    <div className="mt-4 space-y-1 text-center text-xs text-muted-foreground">
+                    <BookingButton
+                      calendlyUrl={service.calendlyUrl}
+                                            className="mt-6"
+                    />
+                    <div className="mt-4 text-center text-xs text-muted-foreground">
                       <p>{siteConfig.phone}</p>
-                      <p>{siteConfig.email}</p>
                     </div>
                   </div>
                 </ScrollReveal>
@@ -241,19 +231,10 @@ export default function ServicesPage() {
             </span>
             <span className="text-3xl font-semibold text-primary">FREE</span>
           </div>
-          <Button
-            size="lg"
-            className="mt-8 px-10"
-            render={
-              <Link
-                href={siteConfig.calendlyUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              />
-            }
-          >
-            Claim Your Free Session
-          </Button>
+          <BookingButton
+            calendlyUrl={siteConfig.calendlyUrl}
+            className="mx-auto mt-8 max-w-xs"
+          />
         </ScrollReveal>
       </section>
 
@@ -274,19 +255,10 @@ export default function ServicesPage() {
             Come experience the difference that intentional healing energy can
             make in your life.
           </p>
-          <Button
-            size="lg"
-            className="mt-8 px-8"
-            render={
-              <Link
-                href={siteConfig.calendlyUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              />
-            }
-          >
-            Book a Session
-          </Button>
+          <BookingButton
+            calendlyUrl={siteConfig.calendlyUrl}
+            className="mx-auto mt-8 max-w-xs"
+          />
         </ScrollReveal>
       </section>
 

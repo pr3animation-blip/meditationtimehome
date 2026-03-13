@@ -53,7 +53,7 @@ export function FeatureGrid({ items, columns = 4 }: FeatureGridProps) {
                 <HugeiconsIcon icon={icon} size={20} className="text-primary" aria-hidden="true" />
               </div>
             )}
-            <h3 className="font-serif text-lg font-medium">{item.title}</h3>
+            <p className="font-serif text-lg font-medium">{item.title}</p>
             <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
               {item.description}
             </p>

@@ -8,7 +8,7 @@ import { servicesAddressed } from "@/config/site-data"
 import { buildMetaDescription } from "@/lib/seo"
 
 export const metadata: Metadata = {
-  title: "About Victoria Enriquez - Energy Healer in Chandler, AZ",
+  title: "About Victoria Enriquez",
   description: buildMetaDescription(
     "Meet Victoria Enriquez, a certified Reiki and sound healing practitioner in Chandler, Arizona, and learn the mission behind Meditation TIME Home."
   ),

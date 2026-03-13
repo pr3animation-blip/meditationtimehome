@@ -34,7 +34,7 @@ export function BookCard({ book }: BookCardProps) {
           )}
         </div>
         <div className="flex flex-1 flex-col">
-          <h3 className="font-serif text-2xl font-medium">{book.title}</h3>
+          <h2 className="font-serif text-2xl font-medium">{book.title}</h2>
           <p className="mt-1 text-sm text-muted-foreground italic">
             {book.subtitle}
           </p>

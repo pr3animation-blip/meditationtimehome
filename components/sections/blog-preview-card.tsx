@@ -37,14 +37,14 @@ export function BlogPreviewCard({ post }: BlogPreviewCardProps) {
             </Badge>
           )}
         </div>
-        <h3 className="mt-3 font-serif text-lg font-medium leading-snug">
+        <h2 className="mt-3 font-serif text-lg font-medium leading-snug">
           <Link
             href={`/blog/${post.slug}`}
             className="transition-colors hover:text-primary"
           >
             {post.title}
           </Link>
-        </h3>
+        </h2>
         <p className="mt-2 text-sm leading-relaxed text-muted-foreground line-clamp-3">
           {post.excerpt}
         </p>
@@ -52,8 +52,8 @@ export function BlogPreviewCard({ post }: BlogPreviewCardProps) {
           href={`/blog/${post.slug}`}
           className="mt-auto inline-block pt-4 text-sm font-medium text-primary transition-colors hover:text-primary/80"
         >
-          Read more
-          <span className="ml-1 inline-block transition-transform group-hover:translate-x-1">
+          Read more<span className="sr-only">: {post.title}</span>
+          <span className="ml-1 inline-block transition-transform group-hover:translate-x-1" aria-hidden="true">
             &rarr;
           </span>
         </Link>

@@ -31,7 +31,7 @@ const contactDescription = buildMetaDescription(
 )
 
 export const metadata: Metadata = {
-  title: "Contact Us - Book a Session in Chandler, AZ",
+  title: "Contact Us",
   description: contactDescription,
   alternates: {
     canonical: "/contact",

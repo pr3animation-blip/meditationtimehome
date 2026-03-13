@@ -5,7 +5,7 @@ import { galleryPhotos } from "@/config/site-data"
 import { buildMetaDescription } from "@/lib/seo"
 
 export const metadata: Metadata = {
-  title: "Gallery - Meditation TIME Home",
+  title: "Gallery",
   description: buildMetaDescription(
     "Browse photos of Victoria Enriquez, her sound healing sessions, crystal singing bowls, and the journey behind Meditation TIME Home in Chandler, Arizona."
   ),

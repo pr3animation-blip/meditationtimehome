@@ -9,7 +9,7 @@ export const siteConfig: SiteConfig = {
   address: "2845 N Price Rd unit 33, Chandler, AZ 85224",
   calendlyUrl: "https://calendly.com/meditationtimehome",
   social: {
-    facebook: "https://www.facebook.com/meditationtimehome",
+    facebook: "https://www.facebook.com/victoriawhatever",
     twitter: "https://twitter.com/Me_time_Reset",
     instagram: "https://www.instagram.com/meditationtimehome",
     youtube: "https://www.youtube.com/@meditationtimehome",
