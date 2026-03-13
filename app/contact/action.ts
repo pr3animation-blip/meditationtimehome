@@ -23,7 +23,7 @@ export async function sendContactEmail(
 
   try {
     const { error } = await resend.emails.send({
-      from: `${siteConfig.name} <onboarding@resend.dev>`,
+      from: `${siteConfig.name} <noreply@contact.meditationtimehome.com>`,
       to: [siteConfig.email],
       replyTo: email,
       subject: `New inquiry from ${name} — ${siteConfig.name}`,
