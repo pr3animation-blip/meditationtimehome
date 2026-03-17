@@ -1,6 +1,5 @@
 import Link from "next/link"
-import { HugeiconsIcon } from "@hugeicons/react"
-import { Yoga01Icon } from "@hugeicons/core-free-icons"
+import Image from "next/image"
 import { Separator } from "@/components/ui/separator"
 import { BrandWordmark } from "@/components/layout/brand-wordmark"
 import { footerSections, siteConfig } from "@/config/navigation"
@@ -14,10 +13,12 @@ export function SiteFooter() {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-5">
           <div className="space-y-4 lg:col-span-2">
             <Link href="/" className="flex items-center gap-2">
-              <HugeiconsIcon
-                icon={Yoga01Icon}
-                size={24}
-                className="text-sidebar-primary"
+              <Image
+                src="/images/logo.svg"
+                alt=""
+                width={42}
+                height={42}
+                className="shrink-0"
                 aria-hidden="true"
               />
               <BrandWordmark className="font-serif text-lg font-semibold tracking-tight" />

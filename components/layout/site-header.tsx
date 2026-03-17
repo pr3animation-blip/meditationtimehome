@@ -2,9 +2,10 @@
 
 import dynamic from "next/dynamic"
 import Link from "next/link"
+import Image from "next/image"
 import { useState } from "react"
 import { HugeiconsIcon } from "@hugeicons/react"
-import { Yoga01Icon, Menu01Icon } from "@hugeicons/core-free-icons"
+import { Menu01Icon } from "@hugeicons/core-free-icons"
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -48,10 +49,12 @@ export function SiteHeader() {
           href="/"
           className="flex items-center gap-2.5 justify-self-center whitespace-nowrap transition-opacity hover:opacity-80 lg:justify-self-start"
         >
-          <HugeiconsIcon
-            icon={Yoga01Icon}
-            size={28}
-            className="text-sidebar-primary"
+          <Image
+            src="/images/logo.svg"
+            alt=""
+            width={48}
+            height={48}
+            className="shrink-0"
             aria-hidden="true"
           />
           <BrandWordmark className="font-serif text-xl font-semibold tracking-tight" />
