@@ -7,7 +7,7 @@ import { buildMetaDescription } from "@/lib/seo"
 export const metadata: Metadata = {
   title: "Gallery",
   description: buildMetaDescription(
-    "Browse photos of Victoria Enriquez, her sound healing sessions, crystal singing bowls, and the journey behind Meditation TIME Home in Chandler, Arizona."
+    "Browse photos of Victoria Enriquez, her sound healing sessions, crystal singing bowls, and the journey behind MEditation TIME in Chandler, Arizona."
   ),
   alternates: {
     canonical: "/gallery",

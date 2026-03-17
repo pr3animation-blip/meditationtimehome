@@ -10,7 +10,7 @@ import { buildMetaDescription } from "@/lib/seo"
 export const metadata: Metadata = {
   title: "About Victoria Enriquez",
   description: buildMetaDescription(
-    "Meet Victoria Enriquez, a certified Reiki and sound healing practitioner in Chandler, Arizona, and learn the mission behind Meditation TIME Home."
+    "Meet Victoria Enriquez, a certified Reiki and sound healing practitioner in Chandler, Arizona, and learn the mission behind MEditation TIME."
   ),
   alternates: {
     canonical: "/about",
@@ -29,12 +29,13 @@ export default function AboutPage() {
       <section className="py-16 md:py-24">
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
           <ScrollReveal className="mx-auto mb-12 max-w-md">
-            <div className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-border/60 shadow-sm">
+            <div className="overflow-hidden rounded-2xl border border-border/60 shadow-sm">
               <Image
-                src="/images/new images/about-photo.webp"
+                src="/images/main.webp"
                 alt="Portrait illustration of Victoria Enriquez, energy healer in Chandler, Arizona"
-                fill
-                className="object-cover"
+                width={800}
+                height={1000}
+                className="h-auto w-full"
                 sizes="(max-width: 768px) 100vw, 420px"
               />
             </div>
@@ -110,10 +111,10 @@ export default function AboutPage() {
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
           <ScrollReveal>
             <h2 className="text-center font-serif text-3xl font-light tracking-tight md:text-4xl">
-              What We Can Help With
+              What I Can Help With
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-center text-muted-foreground">
-              Our healing modalities address a wide range of physical, emotional,
+              My healing modalities address a wide range of physical, emotional,
               and spiritual needs.
             </p>
           </ScrollReveal>

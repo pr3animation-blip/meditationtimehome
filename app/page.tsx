@@ -52,7 +52,7 @@ export default function Home() {
           <div className="relative mx-auto aspect-[16/9] max-w-5xl overflow-hidden rounded-2xl border border-border/60 shadow-sm">
             <Image
               src="/images/generated/home-intro-healing.webp"
-              alt="Healing and meditation studio atmosphere at Meditation TIME Home in Chandler, Arizona"
+              alt="Healing and meditation studio atmosphere at MEditation TIME in Chandler, Arizona"
               fill
               className="object-cover"
               sizes="(max-width: 1280px) 100vw, 1120px"
@@ -93,7 +93,7 @@ export default function Home() {
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
           <ScrollReveal className="text-center">
             <h2 className="font-serif text-3xl font-light tracking-tight md:text-4xl">
-              Our Services
+              My Services
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-muted-foreground">
               Come meet me and select what modality you are drawn to.

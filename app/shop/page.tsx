@@ -59,7 +59,7 @@ export default function ShopPage() {
                 Victoria wrote these books to share the insights she has
                 gathered from working with clients and from her own journey of
                 self-discovery. They complement the hands-on healing work she
-                offers at Meditation TIME Home, providing a bridge between
+                offers at MEditation TIME, providing a bridge between
                 in-studio sessions and everyday life.
               </p>
               <p>

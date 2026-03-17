@@ -1,7 +1,7 @@
 import type { NavItem, FooterSection, SiteConfig } from "@/types/navigation"
 
 export const siteConfig: SiteConfig = {
-  name: "Meditation TIME",
+  name: "MEditation TIME",
   description:
     "Discover Reiki, sound healing, and meditation sessions with Victoria Enriquez in Chandler, Arizona to relieve stress, restore balance, and support your wellness journey.",
   phone: "602-754-6739",

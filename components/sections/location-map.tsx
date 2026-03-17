@@ -41,7 +41,7 @@ export function LocationMap() {
           <MarkerContent>
             <div className="size-4 rounded-full border-2 border-white bg-primary shadow-lg" />
           </MarkerContent>
-          <MarkerTooltip>Meditation TIME</MarkerTooltip>
+          <MarkerTooltip>MEditation TIME</MarkerTooltip>
           <MarkerPopup>
             <div className="space-y-1.5">
               <p className="font-semibold text-foreground">{siteConfig.name}</p>

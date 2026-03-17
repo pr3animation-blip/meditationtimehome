@@ -17,6 +17,6 @@
   <circle cx="280" cy="620" r="160" fill="#9ab099" opacity="0.32"/>
   <path d="M0 620 C180 560 320 680 520 620 C760 540 930 700 1200 620 L1200 800 L0 800 Z" fill="#f3e7d4" opacity="0.9"/>
   <path d="M0 670 C180 620 320 730 520 670 C760 600 930 750 1200 690 L1200 800 L0 800 Z" fill="#dce8d8" opacity="0.9"/>
-  <text x="80" y="140" fill="#465246" font-size="46" font-family="Georgia, serif">Meditation TIME Home</text>
+  <text x="80" y="140" fill="#465246" font-size="46" font-family="Georgia, serif">MEditation TIME</text>
   <text x="80" y="195" fill="#5a6658" font-size="28" font-family="Georgia, serif">Sound Healing - Reiki - Meditation</text>
 </svg>

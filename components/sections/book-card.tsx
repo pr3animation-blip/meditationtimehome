@@ -11,7 +11,7 @@ export function BookCard({ book }: BookCardProps) {
   return (
     <Card className="overflow-hidden border-border/50 bg-card">
       <CardContent className="flex flex-col gap-6 p-6 md:flex-row md:items-center md:p-8">
-        <div className="relative aspect-[3/4] w-full shrink-0 overflow-hidden rounded-lg border border-border/60 bg-secondary md:w-48">
+        <div className="relative aspect-[2/3] w-full shrink-0 overflow-hidden rounded-lg border border-border/60 bg-secondary md:w-48">
           {book.imageSrc ? (
             <Image
               src={book.imageSrc}

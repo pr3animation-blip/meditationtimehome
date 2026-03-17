@@ -2,7 +2,7 @@ import { siteConfig } from "@/config/navigation"
 import type { BlogPost, Service } from "@/types/navigation"
 
 const SITE_URL = "https://meditationtimehome.com"
-const BUSINESS_NAME = "Meditation TIME Home"
+const BUSINESS_NAME = "MEditation TIME"
 const BUSINESS_ID = `${SITE_URL}/#localbusiness`
 
 const parsedPhone = siteConfig.phone.replace(/\D/g, "")
@@ -46,7 +46,7 @@ export function localBusinessSchema(path = "/", description?: string) {
     url: canonicalFor(path),
     description:
       description ??
-      "Meditation TIME Home offers Reiki, meditation, and sound healing services in Chandler, Arizona.",
+      "MEditation TIME offers Reiki, meditation, and sound healing services in Chandler, Arizona.",
     telephone: internationalPhone,
     email: siteConfig.email,
     image: [canonicalFor("/opengraph-image")],

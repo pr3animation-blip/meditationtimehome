@@ -71,7 +71,7 @@ export default function ServicesPage() {
   return (
     <>
       <PageHero
-        title="Our Services"
+        title="My Services"
         subtitle="Energy Flows Where the Attention Goes"
       />
 

@@ -70,7 +70,7 @@ export const books: Book[] = [
       "A guide to deepening your connection through Touch and Sound",
     description:
       "Harmony for Two comes out of me to intentionally share my story of how I have found many clients seeking energy healing modalities to fill a void or lack of nurturing affection in their long term relationships. Explores how self-love and acceptance matter, offering Touch and Sound healing modalities with bodily benefits and ideas for creating a Weekly Togetherness Routine.",
-    amazonUrl: "https://www.amazon.com/dp/B0DQXD5VVN",
+    amazonUrl: "https://www.amazon.com/Harmony-TWO-deepening-connection-through-ebook/dp/B0CRV82F37",
     previewUrl: "#",
     imageSrc: "/images/books/harmony-for-two.webp",
     imageAlt: "Harmony for TWO book cover by Victoria Enriquez",
@@ -80,10 +80,43 @@ export const books: Book[] = [
     subtitle: "Sharing my journey",
     description:
       "Perspectives on solitude during busy modern life. Benefits of becoming more independent, knowing yourself better, and growing self-love through mindfulness incorporation.",
-    amazonUrl: "https://www.amazon.com/dp/B0DH88GL2Z",
+    amazonUrl: "https://a.co/d/0aD7affS",
     previewUrl: "#",
-    imageSrc: "/images/books/inviting-solitude.webp",
+    imageSrc: "/images/books/Inviting-solitude-into-your-life.webp",
     imageAlt: "Inviting Solitude into your Life book cover by Victoria Enriquez",
+  },
+  {
+    title: "Chakras in Real Life",
+    subtitle:
+      "A Journey Through Energy, Healing & Everyday Magic",
+    description:
+      "Blends storytelling and spiritual insight, inviting readers into the real lives of everyday people navigating life's struggles through the lens of the chakra system. Features simple tools and reflective practices to help reconnect with your body's wisdom and awaken your own energy centers.",
+    amazonUrl: "https://www.amazon.com/Chakras-Real-Life-Journey-Everyday/dp/B0FDB5X3M4",
+    previewUrl: "#",
+    imageSrc: "/images/books/chakras-in-real-life.webp",
+    imageAlt: "Chakras in Real Life book cover by Victoria Enriquez",
+  },
+  {
+    title: "In A World of My Own",
+    subtitle:
+      "My Memoir My Wonderland",
+    description:
+      "Victoria Enriquez shares her personal memoir, a journey through her own wonderland of self-discovery, healing, and transformation. An intimate look at the experiences that shaped her path as an energy healer and wellness practitioner.",
+    amazonUrl: "https://www.amazon.com/World-My-Own-Memoir-Wonderland-ebook/dp/B0FB8D4WBF?ref_=ast_author_dp_rw&th=1&psc=1&dib=eyJ2IjoiMSJ9._JpUenM_twDqnN6bMVM37cQPWblhLZ7Crm7fYMGnY_ErJZT2l5FqAuC6uWo0JRqx3hmEwthXbzHe9J3eBr0MXglKDw3deMiFAsNo3tSqtIA.mAg9NTyHg7pOGFwQtsjjN8RpdL4c8BdNV0yhh9DdU9k&dib_tag=AUTHOR",
+    previewUrl: "#",
+    imageSrc: "/images/books/In-a-world-of-my-own.webp",
+    imageAlt: "In A World of My Own book cover by Victoria Enriquez",
+  },
+  {
+    title: "Touch",
+    subtitle:
+      "The benefits of touch and more reasons to care",
+    description:
+      "Explores the profound impact of human touch on physical and emotional well-being. Victoria shares insights from her practice on why touch matters, its healing benefits, and how nurturing physical connection can transform relationships and self-care.",
+    amazonUrl: "https://a.co/d/06ycCt4S",
+    previewUrl: "#",
+    imageSrc: "/images/books/touch.webp",
+    imageAlt: "Touch book cover by Victoria Enriquez",
   },
 ]
 
@@ -99,7 +132,7 @@ export const servicesAddressed = [
 ]
 
 export const galleryPhotos: GalleryPhoto[] = [
-  { src: "/images/new images/IMG_6766_converted.webp", alt: "Victoria with singing bowls and gong by the pool at sunset" },
+  { src: "/images/new.webp", alt: "Victoria with singing bowls and gong by the pool at sunset" },
   { src: "/images/new images/IMG_4355_converted.webp", alt: "Victoria leading an outdoor sound bath session" },
   { src: "/images/new images/IMG_4252_converted.webp", alt: "Victoria in her studio with crystal singing bowls" },
   { src: "/images/new images/IMG_4853_converted.webp", alt: "Setting up for an in-home sound healing session" },
@@ -111,7 +144,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   { src: "/images/new images/IMG_5253_converted.webp", alt: "Victoria portrait with warm golden tones" },
   { src: "/images/new images/IMG_2212.webp", alt: "Victoria at her desk" },
   { src: "/images/new images/bLOG pHOTO.webp", alt: "Ocean deck at sunset" },
-  { src: "/images/new images/about-photo.webp", alt: "Victoria Enriquez, energy healer in Chandler, Arizona" },
+  { src: "/images/main.webp", alt: "Victoria Enriquez, energy healer in Chandler, Arizona" },
 ]
 
 export const arizonaPages: ArizonaPage[] = [
@@ -120,7 +153,7 @@ export const arizonaPages: ArizonaPage[] = [
     slug: "anxiety-treatment-in-chandler",
     heading: "Overcome Anxiety with Sound Healing and Meditation",
     description:
-      "Meditation TIME Home offers anxiety treatment through meditation and sound healing practices in Chandler, Arizona. Our approach addresses anxiety's root causes by helping clients calm their mind and foster inner peace through proven holistic techniques.",
+      "MEditation TIME offers anxiety treatment through meditation and sound healing practices in Chandler, Arizona. Our approach addresses anxiety's root causes by helping clients calm their mind and foster inner peace through proven holistic techniques.",
     benefits: [
       { title: "Reduced Anxiety Symptoms", description: "Experience a noticeable decrease in anxiety through regular sound healing and meditation sessions." },
       { title: "Calmer Mind", description: "Learn techniques to quiet racing thoughts and find mental peace." },
@@ -146,7 +179,7 @@ export const arizonaPages: ArizonaPage[] = [
     slug: "reiki-energy-healing-session-in-chandler",
     heading: "Restore Balance with Reiki Energy Healing",
     description:
-      "Experience the transformative power of USUI Reiki with Victoria at Meditation TIME Home in Chandler, Arizona. Reiki promotes healing by encouraging a healthy flow of energy, helping to balance your chakras and restore your body's natural equilibrium.",
+      "Experience the transformative power of USUI Reiki with Victoria at MEditation TIME in Chandler, Arizona. Reiki promotes healing by encouraging a healthy flow of energy, helping to balance your chakras and restore your body's natural equilibrium.",
     benefits: [
       { title: "Energy Balance", description: "Restore the natural flow of energy throughout your body's chakra system." },
       { title: "Deep Relaxation", description: "Enter a state of profound calm that promotes natural healing." },
@@ -159,7 +192,7 @@ export const arizonaPages: ArizonaPage[] = [
     slug: "chakra-healing-meditation-in-chandler",
     heading: "Align Your Energy with Chakra Healing Meditation",
     description:
-      "Discover the power of chakra healing meditation at Meditation TIME Home in Chandler, Arizona. Our sessions help you identify and clear energy blockages, restoring balance and harmony to your mind, body, and spirit.",
+      "Discover the power of chakra healing meditation at MEditation TIME in Chandler, Arizona. Our sessions help you identify and clear energy blockages, restoring balance and harmony to your mind, body, and spirit.",
     benefits: [
       { title: "Chakra Alignment", description: "Balance all seven major energy centers for optimal well-being." },
       { title: "Increased Vitality", description: "Feel more energized and alive as blocked energy is released." },
