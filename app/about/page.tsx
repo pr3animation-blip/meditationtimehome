@@ -4,8 +4,13 @@ import { ScrollReveal } from "@/components/animation/scroll-reveal"
 import { PageHero } from "@/components/sections/page-hero"
 import { FeatureGrid } from "@/components/sections/feature-grid"
 import { CtaBanner } from "@/components/sections/cta-banner"
+import { JsonLd } from "@/components/seo/json-ld"
 import { servicesAddressed } from "@/config/site-data"
-import { buildMetaDescription } from "@/lib/seo"
+import {
+  buildMetaDescription,
+  localBusinessSchema,
+  personSchema,
+} from "@/lib/seo"
 
 export const metadata: Metadata = {
   title: "About Victoria Enriquez",
@@ -20,6 +25,12 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
+      <JsonLd
+        id="about-local-business-schema"
+        data={localBusinessSchema("/about")}
+      />
+      <JsonLd id="about-person-schema" data={personSchema()} />
+
       <PageHero
         title="About Victoria"
         subtitle="Guide me and heal me so I may be of greater service to others"

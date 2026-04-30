@@ -16,9 +16,14 @@ import { FloatingCircle } from "@/components/animation/floating-circle"
 import { PageHero } from "@/components/sections/page-hero"
 import { CtaBanner } from "@/components/sections/cta-banner"
 import { BookingButton } from "@/components/ui/booking-button"
+import { JsonLd } from "@/components/seo/json-ld"
 import { services, arizonaPages } from "@/config/site-data"
 import { siteConfig } from "@/config/navigation"
-import { buildMetaDescription } from "@/lib/seo"
+import {
+  buildMetaDescription,
+  localBusinessSchema,
+  serviceSchema,
+} from "@/lib/seo"
 
 export const metadata: Metadata = {
   title: "Healing Services",
@@ -70,6 +75,18 @@ const modalities = [
 export default function ServicesPage() {
   return (
     <>
+      <JsonLd
+        id="services-local-business-schema"
+        data={localBusinessSchema("/services")}
+      />
+      {services.map((service) => (
+        <JsonLd
+          key={service.slug}
+          id={`services-index-service-schema-${service.slug}`}
+          data={serviceSchema(service)}
+        />
+      ))}
+
       <PageHero
         title="My Services"
         subtitle="Energy Flows Where the Attention Goes"

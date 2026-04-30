@@ -6,6 +6,7 @@ import type { Service } from "@/types/navigation"
 import { Button } from "@/components/ui/button"
 import { PageHero } from "@/components/sections/page-hero"
 import { JsonLd } from "@/components/seo/json-ld"
+import { Breadcrumbs } from "@/components/seo/breadcrumbs"
 import { siteConfig } from "@/config/navigation"
 import { services } from "@/config/site-data"
 import {
@@ -95,6 +96,15 @@ export default async function LandingPage({ params }: LandingPageProps) {
           slug === "still-not-sure" ? "/still-not-sure" : `/${slug}`,
           service.description
         )}
+      />
+
+      <Breadcrumbs
+        id={`service-${service.slug}`}
+        items={[
+          { name: "Home", path: "/" },
+          { name: "Services", path: "/services" },
+          { name: service.name },
+        ]}
       />
 
       <PageHero title={service.name} subtitle={service.duration ? `${service.duration} ${service.price ? `· ${service.price}` : ""}` : undefined} />

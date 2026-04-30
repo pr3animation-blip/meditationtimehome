@@ -160,6 +160,33 @@ export const arizonaPages: ArizonaPage[] = [
       { title: "Better Sleep", description: "Improve sleep quality by addressing the root causes of restlessness and worry." },
       { title: "Emotional Balance", description: "Develop resilience and stability to handle life's challenges with grace." },
     ],
+    faqs: [
+      {
+        question: "Can sound healing and meditation actually help with anxiety?",
+        answer:
+          "Many clients report meaningful relief. The slow, repetitive vibrations from crystal singing bowls and tuning forks invite the nervous system out of fight-or-flight and into a parasympathetic, restful state — which is the same state guided meditation cultivates. While these sessions are not a substitute for medical or psychiatric care, they pair well with therapy, breathwork, and any treatment plan you already have in place.",
+      },
+      {
+        question: "Should I keep my therapy or anxiety medication while seeing Victoria?",
+        answer:
+          "Yes. Sound healing and meditation are complementary practices, not replacements for clinical care. Continue any treatment your doctor or therapist has prescribed and let Victoria know what you are working on so she can tailor each session.",
+      },
+      {
+        question: "How quickly will I notice a change in my anxiety?",
+        answer:
+          "Most clients leave their first session feeling calmer and more grounded. Lasting changes — fewer racing thoughts, better sleep, more emotional steadiness — typically build over a few consistent sessions. One client reported their grocery-store and driving anxiety lifted within a couple of days after their first sound bath.",
+      },
+      {
+        question: "How long is each anxiety-focused session and what does it look like?",
+        answer:
+          "Sessions run 45 to 90 minutes depending on which service you book. You will lie comfortably on a mat or table, fully clothed. Victoria opens with a brief check-in, guides you into a relaxed state, and then plays sound instruments and offers gentle Reiki — letting your nervous system settle without demand or effort on your part.",
+      },
+      {
+        question: "How often should I come in to feel real anxiety relief?",
+        answer:
+          "A weekly cadence for the first three or four weeks helps the body learn the relaxation response, then most clients shift to every two to four weeks for maintenance. Victoria will recommend a rhythm based on what you experience after your first session.",
+      },
+    ],
   },
   {
     title: "Sound Bath Healing Session in Chandler, AZ",
@@ -172,6 +199,33 @@ export const arizonaPages: ArizonaPage[] = [
       { title: "Enhanced Mental Clarity", description: "Clear mental fog and improve focus through deep sound immersion." },
       { title: "Improved Sleep Quality", description: "Experience deeper, more restorative sleep after sound bath sessions." },
       { title: "Emotional Healing", description: "Release emotional blockages and find renewed inner peace." },
+    ],
+    faqs: [
+      {
+        question: "What actually happens during a sound bath session?",
+        answer:
+          "You lie down fully clothed on a mat with a blanket and pillow. Victoria plays a sequence of crystal singing bowls, tuning forks, chimes, and other instruments while you rest. There is nothing you have to do — the sound waves wash over the body and gently shift the mind toward a meditative, trance-like state. Most clients lose track of time within the first ten minutes.",
+      },
+      {
+        question: "Do I need any meditation experience to enjoy a sound bath?",
+        answer:
+          "No experience is needed. Sound baths are uniquely beginner-friendly because the instruments do the work — you do not have to quiet your mind on your own. First-time clients are often surprised by how easily they drop into a deeply relaxed state.",
+      },
+      {
+        question: "What instruments does Victoria use in a sound bath?",
+        answer:
+          "Sessions feature crystal singing bowls tuned to specific chakra frequencies, tuning forks, chimes, and occasionally Tibetan bowls or an ocean drum. The instrument selection varies based on what your body and mind need that day.",
+      },
+      {
+        question: "What should I wear and bring to a sound bath?",
+        answer:
+          "Wear loose, comfortable clothing and warm layers — body temperature can drop as you relax. Mats, bolsters, blankets, and pillows are provided at the Chandler studio. You are welcome to bring a personal eye pillow or a small object that helps you feel grounded.",
+      },
+      {
+        question: "Is it normal to fall asleep during a sound bath?",
+        answer:
+          "Yes, and there is no need to fight it. Many clients drift between waking and sleeping, which is exactly the threshold state where the nervous system does its deepest restorative work. Even if you fully sleep, your body is still receiving the vibrational benefits.",
+      },
     ],
   },
   {
@@ -186,6 +240,33 @@ export const arizonaPages: ArizonaPage[] = [
       { title: "Pain Relief", description: "Reduce physical discomfort through gentle, non-invasive energy work." },
       { title: "Emotional Release", description: "Process and release stored emotions for greater well-being." },
     ],
+    faqs: [
+      {
+        question: "What does a USUI Reiki session feel like?",
+        answer:
+          "Most clients describe it as a warm, glowing radiance that flows through and around the body. You may feel gentle heat or tingling where Victoria's hands rest, deep waves of relaxation, or sometimes nothing at all on a sensory level — yet still leave the table feeling lighter and clearer.",
+      },
+      {
+        question: "Do I remove clothing or use oils during Reiki?",
+        answer:
+          "No. Reiki is performed fully clothed, with no oils, no draping, and no deep pressure. Victoria's hands rest lightly above or just on the body — it is among the gentlest healing modalities available.",
+      },
+      {
+        question: "Is Reiki a religious practice?",
+        answer:
+          "No. Reiki is a Japanese energy practice with spiritual roots, but it is not tied to any religion. Clients of all faiths and no faith receive Reiki — the technique works with the body's own energy and does not require belief in any particular tradition.",
+      },
+      {
+        question: "How is Reiki different from massage or acupuncture?",
+        answer:
+          "Massage works with muscles and soft tissue; acupuncture works with meridian points using needles. Reiki works energetically, with light or no touch at all. The three pair beautifully but address very different layers of the body's wellness picture.",
+      },
+      {
+        question: "How many Reiki sessions do most clients book?",
+        answer:
+          "It varies. Many clients feel a meaningful shift after a single 60-minute session, while those working with chronic stress, grief, or long-held tension often choose a series of three to six weekly sessions before moving to monthly maintenance.",
+      },
+    ],
   },
   {
     title: "Chakra Healing Meditation in Chandler, AZ",
@@ -198,6 +279,33 @@ export const arizonaPages: ArizonaPage[] = [
       { title: "Increased Vitality", description: "Feel more energized and alive as blocked energy is released." },
       { title: "Inner Peace", description: "Achieve a deep sense of calm and centeredness through guided meditation." },
       { title: "Spiritual Growth", description: "Deepen your spiritual practice and connection to your higher self." },
+    ],
+    faqs: [
+      {
+        question: "What are the seven chakras and why do they need balancing?",
+        answer:
+          "The chakras are seven energy centers running from the base of the spine to the crown of the head, each linked to specific physical, emotional, and spiritual themes — grounding, creativity, confidence, love, expression, intuition, and connection. When daily stress, unprocessed emotions, or long-held patterns cause one to become sluggish or overactive, the others compensate, leaving you feeling stuck, depleted, or out of sync. Balancing brings the system back into a smoother flow.",
+      },
+      {
+        question: "How will I know which of my chakras feel blocked?",
+        answer:
+          "Victoria opens each session with a brief intuitive read and a conversation about what is feeling heavy or stuck — sleep, communication, low energy, relationship patterns, creative block. From there, the meditation and tuning fork work focuses on the centers that need the most attention. You do not need to know anything about chakras to begin.",
+      },
+      {
+        question: "Will I learn techniques I can practice at home?",
+        answer:
+          "Yes. Each session ends with simple breath and visualization tools tailored to the chakras you worked on, so you can carry the practice into daily life. Five minutes a day between sessions tends to deepen results significantly.",
+      },
+      {
+        question: "Is chakra meditation suitable for absolute beginners?",
+        answer:
+          "Especially for beginners. The session is fully guided — Victoria leads the breath, the visualization, and the focus, so there is no right or wrong way to do it. First-time clients often find this gentler than trying to learn meditation alone from an app.",
+      },
+      {
+        question: "Can I combine chakra healing meditation with Reiki or a sound bath?",
+        answer:
+          "Absolutely — most clients do. The 90-minute Signature Energy Session weaves Reiki, sound, and chakra-focused intention into a single appointment, which is the most popular format for clients who want depth across multiple modalities at once.",
+      },
     ],
   },
 ]

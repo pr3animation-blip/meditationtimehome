@@ -1,7 +1,9 @@
 import type { Metadata } from "next"
+import Link from "next/link"
 import { ScrollReveal } from "@/components/animation/scroll-reveal"
 import { PageHero } from "@/components/sections/page-hero"
 import { ContactForm } from "@/components/sections/contact-form"
+import { CtaBanner } from "@/components/sections/cta-banner"
 import { LocationMap } from "@/components/sections/location-map"
 import { Card, CardContent } from "@/components/ui/card"
 import { JsonLd } from "@/components/seo/json-ld"
@@ -63,7 +65,15 @@ export default function ContactPage() {
                 Send Us a Message
               </h2>
               <p className="mt-2 text-sm text-muted-foreground">
-                Fill out the form below and we&apos;ll get back to you.
+                Fill out the form below and we&apos;ll get back to you.{" "}
+                <Link
+                  href={siteConfig.calendlyUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-primary transition-colors hover:text-primary/80"
+                >
+                  Or book a session directly →
+                </Link>
               </p>
               <div className="mt-8">
                 <ContactForm />
@@ -257,6 +267,8 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+
+      <CtaBanner />
     </>
   )
 }

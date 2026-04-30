@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { BlogPreviewCard } from "@/components/sections/blog-preview-card"
 import { CtaBanner } from "@/components/sections/cta-banner"
 import { JsonLd } from "@/components/seo/json-ld"
+import { Breadcrumbs } from "@/components/seo/breadcrumbs"
 import { blogPosts } from "@/config/blog-data"
 import { blogPostingSchema, buildMetaDescription } from "@/lib/seo"
 
@@ -79,6 +80,15 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       <JsonLd
         id={`blog-posting-schema-${post.slug}`}
         data={blogPostingSchema(post)}
+      />
+
+      <Breadcrumbs
+        id={`blog-${post.slug}`}
+        items={[
+          { name: "Home", path: "/" },
+          { name: "Blog", path: "/blog" },
+          { name: post.title },
+        ]}
       />
 
       <article className="py-16 md:py-24">

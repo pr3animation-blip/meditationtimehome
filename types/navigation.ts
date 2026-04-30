@@ -71,6 +71,7 @@ export interface ArizonaPage {
   heading: string
   description: string
   benefits: { title: string; description: string }[]
+  faqs?: { question: string; answer: string }[]
 }
 
 export interface GalleryPhoto {

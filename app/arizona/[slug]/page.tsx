@@ -6,9 +6,15 @@ import { PageHero } from "@/components/sections/page-hero"
 import { FeatureGrid } from "@/components/sections/feature-grid"
 import { CtaBanner } from "@/components/sections/cta-banner"
 import { JsonLd } from "@/components/seo/json-ld"
+import { Breadcrumbs } from "@/components/seo/breadcrumbs"
 import { siteConfig } from "@/config/navigation"
 import { arizonaPages } from "@/config/site-data"
-import { buildMetaDescription, localBusinessSchema } from "@/lib/seo"
+import {
+  arizonaPageServiceSchema,
+  buildMetaDescription,
+  faqSchema,
+  localBusinessSchema,
+} from "@/lib/seo"
 
 interface ArizonaPageProps {
   params: Promise<{ slug: string }>
@@ -58,6 +64,25 @@ export default async function ArizonaPage({ params }: ArizonaPageProps) {
         id={`arizona-local-business-schema-${page.slug}`}
         data={localBusinessSchema(`/arizona/${page.slug}`, page.description)}
       />
+      <JsonLd
+        id={`arizona-service-schema-${page.slug}`}
+        data={arizonaPageServiceSchema(page)}
+      />
+      {page.faqs && page.faqs.length > 0 && (
+        <JsonLd
+          id={`arizona-faq-schema-${page.slug}`}
+          data={faqSchema(page.faqs)}
+        />
+      )}
+
+      <Breadcrumbs
+        id={`arizona-${page.slug}`}
+        items={[
+          { name: "Home", path: "/" },
+          { name: "Services", path: "/services" },
+          { name: page.title },
+        ]}
+      />
 
       <PageHero title={page.heading} subtitle={page.title} />
 
@@ -87,8 +112,8 @@ export default async function ArizonaPage({ params }: ArizonaPageProps) {
           </h2>
           <p className="mt-4 text-muted-foreground">
             Certified Practitioner of REIKI Energy, Sound Healing, and Tuning
-            Fork sessions with background in psychology and holistic healing
-            practices.
+            Fork sessions with background in the medical field and experience
+            with healing past trauma &amp; healing modalities.
           </p>
           <div className="mt-6 space-y-1 text-sm text-muted-foreground">
             <p>{siteConfig.address}</p>
@@ -111,6 +136,37 @@ export default async function ArizonaPage({ params }: ArizonaPageProps) {
           </Button>
         </div>
       </section>
+
+      {page.faqs && page.faqs.length > 0 && (
+        <section className="bg-secondary/30 py-16 md:py-24">
+          <div className="mx-auto max-w-3xl px-4 md:px-8">
+            <h2 className="text-center font-serif text-3xl font-light tracking-tight md:text-4xl">
+              Frequently Asked Questions
+            </h2>
+            <div className="mt-10 space-y-4">
+              {page.faqs.map((item) => (
+                <details
+                  key={item.question}
+                  className="group rounded-xl border border-border/50 bg-card p-5 transition-colors open:border-primary/30"
+                >
+                  <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-serif text-lg font-medium">
+                    <span>{item.question}</span>
+                    <span
+                      aria-hidden="true"
+                      className="text-2xl font-light text-muted-foreground transition-transform group-open:rotate-45"
+                    >
+                      +
+                    </span>
+                  </summary>
+                  <p className="mt-4 text-base leading-relaxed text-muted-foreground">
+                    {item.answer}
+                  </p>
+                </details>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       <CtaBanner />
     </>

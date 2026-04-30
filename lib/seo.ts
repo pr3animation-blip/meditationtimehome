@@ -1,5 +1,5 @@
 import { siteConfig } from "@/config/navigation"
-import type { BlogPost, Service } from "@/types/navigation"
+import type { ArizonaPage, BlogPost, Service } from "@/types/navigation"
 
 const SITE_URL = "https://meditationtimehome.com"
 const BUSINESS_NAME = "MEditation TIME"
@@ -127,6 +127,58 @@ export function serviceSchema(service: Service) {
   }
 }
 
+export function personSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Victoria Enriquez",
+    jobTitle: "Certified Reiki Master and Sound Healing Practitioner",
+    description:
+      "Certified Practitioner of USUI Reiki Energy, Sound Healing, and Tuning Fork sessions with a background in the medical field. Founder of MEditation TIME in Chandler, Arizona.",
+    image: canonicalFor("/images/main.webp"),
+    url: canonicalFor("/about"),
+    worksFor: {
+      "@id": BUSINESS_ID,
+    },
+    knowsAbout: [
+      "USUI Reiki",
+      "Sound Healing",
+      "Meditation",
+      "Chakra Healing",
+      "Tuning Fork Therapy",
+      "Energy Healing",
+    ],
+    sameAs: Object.values(siteConfig.social),
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Chandler",
+      addressRegion: "AZ",
+      addressCountry: "US",
+    },
+  }
+}
+
+export function arizonaPageServiceSchema(page: ArizonaPage) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: page.title,
+    description: page.description,
+    serviceType: "Energy healing and meditation service",
+    provider: {
+      "@id": BUSINESS_ID,
+      "@type": "HealthAndBeautyBusiness",
+      name: BUSINESS_NAME,
+      url: SITE_URL,
+    },
+    areaServed: {
+      "@type": "City",
+      name: "Chandler",
+    },
+    url: canonicalFor(`/arizona/${page.slug}`),
+  }
+}
+
 export function blogPostingSchema(post: BlogPost) {
   return {
     "@context": "https://schema.org",
@@ -156,6 +208,24 @@ export function blogPostingSchema(post: BlogPost) {
 export interface FaqItem {
   question: string
   answer: string
+}
+
+export interface BreadcrumbItem {
+  name: string
+  path?: string
+}
+
+export function breadcrumbSchema(items: BreadcrumbItem[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      ...(item.path ? { item: canonicalFor(item.path) } : {}),
+    })),
+  }
 }
 
 export function faqSchema(items: FaqItem[]) {
