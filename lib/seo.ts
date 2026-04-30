@@ -184,7 +184,7 @@ export function blogPostingSchema(post: BlogPost) {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: post.title,
-    description: buildMetaDescription(post.excerpt),
+    description: post.metaDescription ?? buildMetaDescription(post.excerpt),
     datePublished: post.date,
     dateModified: post.date,
     author: {

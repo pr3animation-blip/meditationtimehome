@@ -63,6 +63,8 @@ export interface BlogPost {
   excerpt: string
   content: string
   category?: string
+  metaTitle?: string
+  metaDescription?: string
 }
 
 export interface ArizonaPage {

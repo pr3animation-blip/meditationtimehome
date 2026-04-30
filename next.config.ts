@@ -22,6 +22,7 @@ const cspDirectives = [
 ];
 
 const nextConfig: NextConfig = {
+  trailingSlash: false,
   experimental: {
     optimizePackageImports: ["@hugeicons/react", "@hugeicons/core-free-icons"],
   },

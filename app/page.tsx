@@ -47,6 +47,25 @@ export default function Home() {
         secondaryCtaHref="/services"
       />
 
+      {/* SEO intro — keyword-rich H2 directly under H1 */}
+      <section className="pt-16 md:pt-20">
+        <div className="mx-auto max-w-3xl px-4 text-center md:px-8">
+          <ScrollReveal>
+            <h2 className="font-serif text-3xl font-light tracking-tight md:text-4xl">
+              Reiki, Sound Healing &amp; Meditation Sessions in Chandler, Arizona
+            </h2>
+            <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
+              At MEditation TIME, certified Reiki Master Victoria Enriquez
+              offers USUI Reiki sessions, crystal singing bowl sound baths, and
+              tuning fork chakra work in her Chandler, AZ studio. Whether
+              you&apos;re navigating anxiety, chronic stress, or simply feeling
+              out of sync, every session is tailored to what your mind and body
+              need most.
+            </p>
+          </ScrollReveal>
+        </div>
+      </section>
+
       <section className="py-10 md:py-14">
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
           <div className="relative mx-auto aspect-[16/9] max-w-5xl overflow-hidden rounded-2xl border border-border/60 shadow-sm">

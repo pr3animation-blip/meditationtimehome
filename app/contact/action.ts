@@ -115,6 +115,8 @@ export async function sendContactEmail(
           "",
           `Thank you for reaching out to ${siteConfig.name}. We've received your message and Victoria will respond within 24 hours.`,
           "",
+          `If you need to follow up or share anything else, you can write to Victoria directly at ${siteConfig.email}.`,
+          "",
           "If you'd like to book a session in the meantime, you can do so directly here:",
           siteConfig.calendlyUrl,
           "",
@@ -126,6 +128,7 @@ export async function sendContactEmail(
           "Victoria",
           siteConfig.name,
           siteConfig.phone,
+          siteConfig.email,
           siteConfig.address,
         ].join("\n"),
       })

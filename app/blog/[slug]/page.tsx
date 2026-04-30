@@ -27,19 +27,22 @@ export async function generateMetadata({
   if (!post) return {}
 
   const canonicalPath = `/blog/${post.slug}`
-  const metaDescription = buildMetaDescription(
-    post.excerpt,
-    "Read the full article and book a wellness session in Chandler, AZ."
-  )
+  const metaDescription =
+    post.metaDescription ??
+    buildMetaDescription(
+      post.excerpt,
+      "Read the full article and book a wellness session in Chandler, AZ."
+    )
+  const metaTitle = post.metaTitle ?? post.title
 
   return {
-    title: post.title,
+    title: metaTitle,
     description: metaDescription,
     alternates: {
       canonical: canonicalPath,
     },
     openGraph: {
-      title: post.title,
+      title: metaTitle,
       description: metaDescription,
       type: "article",
       url: canonicalPath,
@@ -65,15 +68,24 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const relatedPosts = blogPosts
     .filter((p) => p.slug !== slug)
     .slice(0, 3)
+
+  type Section = { heading?: string; paragraphs: string[] }
   const paragraphs = post.content.split("\n\n").filter(Boolean)
-  const leadParagraph = paragraphs[0] ?? ""
-  const bodyParagraphs = paragraphs.slice(1)
-  const sectionHeadings = [
-    "How This Supports Healing",
-    "What to Expect in Practice",
-    "Tips to Apply This Daily",
-    "When to Book a Session",
-  ]
+  let leadParagraph = ""
+  const sections: Section[] = []
+  let currentSection: Section | null = null
+  for (const para of paragraphs) {
+    if (para.startsWith("## ")) {
+      if (currentSection) sections.push(currentSection)
+      currentSection = { heading: para.slice(3).trim(), paragraphs: [] }
+    } else if (!leadParagraph && !currentSection) {
+      leadParagraph = para
+    } else {
+      if (!currentSection) currentSection = { paragraphs: [] }
+      currentSection.paragraphs.push(para)
+    }
+  }
+  if (currentSection) sections.push(currentSection)
 
   return (
     <>
@@ -137,15 +149,24 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                 {leadParagraph}
               </p>
             )}
-            {bodyParagraphs.map((paragraph, index) => (
-              <section key={`${post.slug}-section-${index}`} className="space-y-3">
-                <h2 className="font-serif text-2xl font-light tracking-tight">
-                  {sectionHeadings[index] ??
-                    `Meditation Insight ${index + 1}`}
-                </h2>
-                <p className="text-base leading-relaxed text-muted-foreground">
-                  {paragraph}
-                </p>
+            {sections.map((section, index) => (
+              <section
+                key={`${post.slug}-section-${index}`}
+                className="space-y-3"
+              >
+                {section.heading && (
+                  <h2 className="font-serif text-2xl font-light tracking-tight">
+                    {section.heading}
+                  </h2>
+                )}
+                {section.paragraphs.map((paragraph, pIndex) => (
+                  <p
+                    key={`${post.slug}-section-${index}-p-${pIndex}`}
+                    className="text-base leading-relaxed text-muted-foreground"
+                  >
+                    {paragraph}
+                  </p>
+                ))}
               </section>
             ))}
           </div>

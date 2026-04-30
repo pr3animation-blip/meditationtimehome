@@ -151,7 +151,7 @@ export const arizonaPages: ArizonaPage[] = [
   {
     title: "Anxiety Treatment Centers in Chandler, AZ",
     slug: "anxiety-treatment-in-chandler",
-    heading: "Overcome Anxiety with Sound Healing and Meditation",
+    heading: "Overcome Anxiety with Sound Healing & Meditation in Chandler, AZ",
     description:
       "MEditation TIME offers anxiety treatment through meditation and sound healing practices in Chandler, Arizona. Our approach addresses anxiety's root causes by helping clients calm their mind and foster inner peace through proven holistic techniques.",
     benefits: [
@@ -191,7 +191,7 @@ export const arizonaPages: ArizonaPage[] = [
   {
     title: "Sound Bath Healing Session in Chandler, AZ",
     slug: "soundbath-session-in-chandler",
-    heading: "Enjoy Freedom and Calm with Sound Bath Sessions",
+    heading: "Sound Bath Sessions in Chandler, AZ for Deep Calm",
     description:
       "Sound bath experiences are immersive sessions combining ancient wisdom with modern therapeutic techniques. Sessions utilize crystal bowls, chimes, and other instruments to create therapeutic vibrations that promote relaxation and rejuvenation.",
     benefits: [
@@ -231,7 +231,7 @@ export const arizonaPages: ArizonaPage[] = [
   {
     title: "Reiki Energy Healing Session in Chandler, AZ",
     slug: "reiki-energy-healing-session-in-chandler",
-    heading: "Restore Balance with Reiki Energy Healing",
+    heading: "Reiki Energy Healing in Chandler, AZ to Restore Balance",
     description:
       "Experience the transformative power of USUI Reiki with Victoria at MEditation TIME in Chandler, Arizona. Reiki promotes healing by encouraging a healthy flow of energy, helping to balance your chakras and restore your body's natural equilibrium.",
     benefits: [
@@ -271,7 +271,7 @@ export const arizonaPages: ArizonaPage[] = [
   {
     title: "Chakra Healing Meditation in Chandler, AZ",
     slug: "chakra-healing-meditation-in-chandler",
-    heading: "Align Your Energy with Chakra Healing Meditation",
+    heading: "Chakra Healing Meditation in Chandler, AZ",
     description:
       "Discover the power of chakra healing meditation at MEditation TIME in Chandler, Arizona. Our sessions help you identify and clear energy blockages, restoring balance and harmony to your mind, body, and spirit.",
     benefits: [
