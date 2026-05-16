@@ -17,11 +17,11 @@ import { JsonLd } from "@/components/seo/json-ld"
 import { buildMetaDescription, localBusinessSchema } from "@/lib/seo"
 
 const homeDescription = buildMetaDescription(
-  "Experience personalized Reiki, meditation, and sound healing sessions with Victoria Enriquez in Chandler, Arizona."
+  "Experience personalized Reiki, meditation, and sound healing sessions with Victoria Enriquez in Glendale, Arizona."
 )
 
 export const metadata: Metadata = {
-  title: "Sound Healing and Reiki in Chandler, AZ",
+  title: "Sound Healing and Reiki in Glendale, AZ",
   description: homeDescription,
   alternates: {
     canonical: "/",
@@ -52,12 +52,12 @@ export default function Home() {
         <div className="mx-auto max-w-3xl px-4 text-center md:px-8">
           <ScrollReveal>
             <h2 className="font-serif text-3xl font-light tracking-tight md:text-4xl">
-              Reiki, Sound Healing &amp; Meditation Sessions in Chandler, Arizona
+              Reiki, Sound Healing &amp; Meditation Sessions in Glendale, Arizona
             </h2>
             <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
               At MEditation TIME, certified Reiki Master Victoria Enriquez
               offers USUI Reiki sessions, crystal singing bowl sound baths, and
-              tuning fork chakra work in her Chandler, AZ studio. Whether
+              tuning fork chakra work in her Glendale, AZ studio. Whether
               you&apos;re navigating anxiety, chronic stress, or simply feeling
               out of sync, every session is tailored to what your mind and body
               need most.
@@ -71,7 +71,7 @@ export default function Home() {
           <div className="relative mx-auto aspect-[16/9] max-w-5xl overflow-hidden rounded-2xl border border-border/60 shadow-sm">
             <Image
               src="/images/generated/home-intro-healing.webp"
-              alt="Healing and meditation studio atmosphere at MEditation TIME in Chandler, Arizona"
+              alt="Healing and meditation studio atmosphere at MEditation TIME in Glendale, Arizona"
               fill
               className="object-cover"
               sizes="(max-width: 1280px) 100vw, 1120px"

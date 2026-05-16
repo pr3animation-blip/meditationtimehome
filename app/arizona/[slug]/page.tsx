@@ -34,7 +34,7 @@ export async function generateMetadata({
   const canonicalPath = `/arizona/${slug}`
   const metaDescription = buildMetaDescription(
     page.description,
-    "Book your personalized session in Chandler, AZ today."
+    "Book your personalized session in Glendale, AZ today."
   )
 
   return {

@@ -29,7 +29,7 @@ const faqItems = [
 ]
 
 const contactDescription = buildMetaDescription(
-  "Contact MEditation TIME in Chandler, Arizona to ask questions or schedule Reiki, meditation, and sound healing sessions with Victoria."
+  "Contact MEditation TIME in Glendale, Arizona to ask questions or schedule Reiki, meditation, and sound healing sessions with Victoria."
 )
 
 export const metadata: Metadata = {
@@ -171,7 +171,7 @@ export default function ContactPage() {
               <Card className="h-full border-border/50">
                 <CardContent className="space-y-4 p-6">
                   <h3 className="font-serif text-xl font-medium">
-                    Find Us in Chandler
+                    Find Us in Glendale
                   </h3>
                   <div className="overflow-hidden rounded-xl border border-border/60">
                     <LocationMap />
@@ -218,7 +218,7 @@ export default function ContactPage() {
                     during the session.
                   </p>
                   <p className="text-sm leading-relaxed text-muted-foreground">
-                    Sessions are held at the Chandler, Arizona studio by
+                    Sessions are held at the Glendale, Arizona studio by
                     appointment. Walk-ins are not available — please book
                     ahead to reserve your time. Wear comfortable clothing and
                     arrive a few minutes early to settle in.

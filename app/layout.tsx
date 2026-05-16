@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   title: {
-    default: "Sound Healing and Reiki in Chandler, AZ | MEditation TIME",
+    default: "Sound Healing and Reiki in Glendale, AZ | MEditation TIME",
     template: `%s | ${siteConfig.name}`,
   },
   description: buildMetaDescription(siteConfig.description),
@@ -42,20 +42,20 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     type: "website",
     locale: "en_US",
-    title: "Sound Healing and Reiki in Chandler, AZ | MEditation TIME",
+    title: "Sound Healing and Reiki in Glendale, AZ | MEditation TIME",
     description: buildMetaDescription(siteConfig.description),
     images: [
       {
         url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: "MEditation TIME in Chandler, Arizona",
+        alt: "MEditation TIME in Glendale, Arizona",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sound Healing and Reiki in Chandler, AZ | MEditation TIME",
+    title: "Sound Healing and Reiki in Glendale, AZ | MEditation TIME",
     description: buildMetaDescription(siteConfig.description),
     images: ["/opengraph-image"],
   },

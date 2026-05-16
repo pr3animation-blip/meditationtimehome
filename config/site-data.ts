@@ -14,7 +14,7 @@ export const services: Service[] = [
     icon: "reiki",
     imageSrc: "/images/services/reiki-session.webp",
     imageAlt:
-      "Hands and healing energy waves representing a Reiki session in Chandler, Arizona",
+      "Hands and healing energy waves representing a Reiki session in Glendale, Arizona",
   },
   {
     name: "1.5 hour Signature Energy Session by Victoria",
@@ -144,16 +144,16 @@ export const galleryPhotos: GalleryPhoto[] = [
   { src: "/images/new images/IMG_5253_converted.webp", alt: "Victoria portrait with warm golden tones" },
   { src: "/images/new images/IMG_2212.webp", alt: "Victoria at her desk" },
   { src: "/images/new images/bLOG pHOTO.webp", alt: "Ocean deck at sunset" },
-  { src: "/images/main.webp", alt: "Victoria Enriquez, energy healer in Chandler, Arizona" },
+  { src: "/images/main.webp", alt: "Victoria Enriquez, energy healer in Glendale, Arizona" },
 ]
 
 export const arizonaPages: ArizonaPage[] = [
   {
-    title: "Anxiety Treatment Centers in Chandler, AZ",
-    slug: "anxiety-treatment-in-chandler",
-    heading: "Overcome Anxiety with Sound Healing & Meditation in Chandler, AZ",
+    title: "Anxiety Treatment Centers in Glendale, AZ",
+    slug: "anxiety-treatment-in-glendale",
+    heading: "Overcome Anxiety with Sound Healing & Meditation in Glendale, AZ",
     description:
-      "MEditation TIME offers anxiety treatment through meditation and sound healing practices in Chandler, Arizona. Our approach addresses anxiety's root causes by helping clients calm their mind and foster inner peace through proven holistic techniques.",
+      "MEditation TIME offers anxiety treatment through meditation and sound healing practices in Glendale, Arizona. Our approach addresses anxiety's root causes by helping clients calm their mind and foster inner peace through proven holistic techniques.",
     benefits: [
       { title: "Reduced Anxiety Symptoms", description: "Experience a noticeable decrease in anxiety through regular sound healing and meditation sessions." },
       { title: "Calmer Mind", description: "Learn techniques to quiet racing thoughts and find mental peace." },
@@ -189,9 +189,9 @@ export const arizonaPages: ArizonaPage[] = [
     ],
   },
   {
-    title: "Sound Bath Healing Session in Chandler, AZ",
-    slug: "soundbath-session-in-chandler",
-    heading: "Sound Bath Sessions in Chandler, AZ for Deep Calm",
+    title: "Sound Bath Healing Session in Glendale, AZ",
+    slug: "soundbath-session-in-glendale",
+    heading: "Sound Bath Sessions in Glendale, AZ for Deep Calm",
     description:
       "Sound bath experiences are immersive sessions combining ancient wisdom with modern therapeutic techniques. Sessions utilize crystal bowls, chimes, and other instruments to create therapeutic vibrations that promote relaxation and rejuvenation.",
     benefits: [
@@ -219,7 +219,7 @@ export const arizonaPages: ArizonaPage[] = [
       {
         question: "What should I wear and bring to a sound bath?",
         answer:
-          "Wear loose, comfortable clothing and warm layers — body temperature can drop as you relax. Mats, bolsters, blankets, and pillows are provided at the Chandler studio. You are welcome to bring a personal eye pillow or a small object that helps you feel grounded.",
+          "Wear loose, comfortable clothing and warm layers — body temperature can drop as you relax. Mats, bolsters, blankets, and pillows are provided at the Glendale studio. You are welcome to bring a personal eye pillow or a small object that helps you feel grounded.",
       },
       {
         question: "Is it normal to fall asleep during a sound bath?",
@@ -229,11 +229,11 @@ export const arizonaPages: ArizonaPage[] = [
     ],
   },
   {
-    title: "Reiki Energy Healing Session in Chandler, AZ",
-    slug: "reiki-energy-healing-session-in-chandler",
-    heading: "Reiki Energy Healing in Chandler, AZ to Restore Balance",
+    title: "Reiki Energy Healing Session in Glendale, AZ",
+    slug: "reiki-energy-healing-session-in-glendale",
+    heading: "Reiki Energy Healing in Glendale, AZ to Restore Balance",
     description:
-      "Experience the transformative power of USUI Reiki with Victoria at MEditation TIME in Chandler, Arizona. Reiki promotes healing by encouraging a healthy flow of energy, helping to balance your chakras and restore your body's natural equilibrium.",
+      "Experience the transformative power of USUI Reiki with Victoria at MEditation TIME in Glendale, Arizona. Reiki promotes healing by encouraging a healthy flow of energy, helping to balance your chakras and restore your body's natural equilibrium.",
     benefits: [
       { title: "Energy Balance", description: "Restore the natural flow of energy throughout your body's chakra system." },
       { title: "Deep Relaxation", description: "Enter a state of profound calm that promotes natural healing." },
@@ -269,11 +269,11 @@ export const arizonaPages: ArizonaPage[] = [
     ],
   },
   {
-    title: "Chakra Healing Meditation in Chandler, AZ",
-    slug: "chakra-healing-meditation-in-chandler",
-    heading: "Chakra Healing Meditation in Chandler, AZ",
+    title: "Chakra Healing Meditation in Glendale, AZ",
+    slug: "chakra-healing-meditation-in-glendale",
+    heading: "Chakra Healing Meditation in Glendale, AZ",
     description:
-      "Discover the power of chakra healing meditation at MEditation TIME in Chandler, Arizona. Our sessions help you identify and clear energy blockages, restoring balance and harmony to your mind, body, and spirit.",
+      "Discover the power of chakra healing meditation at MEditation TIME in Glendale, Arizona. Our sessions help you identify and clear energy blockages, restoring balance and harmony to your mind, body, and spirit.",
     benefits: [
       { title: "Chakra Alignment", description: "Balance all seven major energy centers for optimal well-being." },
       { title: "Increased Vitality", description: "Feel more energized and alive as blocked energy is released." },

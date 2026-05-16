@@ -15,7 +15,7 @@ import {
 export const metadata: Metadata = {
   title: "About Victoria Enriquez",
   description: buildMetaDescription(
-    "Meet Victoria Enriquez, a certified Reiki and sound healing practitioner in Chandler, Arizona, and learn the mission behind MEditation TIME."
+    "Meet Victoria Enriquez, a certified Reiki and sound healing practitioner in Glendale, Arizona, and learn the mission behind MEditation TIME."
   ),
   alternates: {
     canonical: "/about",
@@ -43,7 +43,7 @@ export default function AboutPage() {
             <div className="overflow-hidden rounded-2xl border border-border/60 shadow-sm">
               <Image
                 src="/images/main.webp"
-                alt="Portrait illustration of Victoria Enriquez, energy healer in Chandler, Arizona"
+                alt="Portrait illustration of Victoria Enriquez, energy healer in Glendale, Arizona"
                 width={800}
                 height={1000}
                 className="h-auto w-full"

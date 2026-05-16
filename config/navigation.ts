@@ -3,10 +3,10 @@ import type { NavItem, FooterSection, SiteConfig } from "@/types/navigation"
 export const siteConfig: SiteConfig = {
   name: "MEditation TIME",
   description:
-    "Discover Reiki, sound healing, and meditation sessions with Victoria Enriquez in Chandler, Arizona to relieve stress, restore balance, and support your wellness journey.",
+    "Discover Reiki, sound healing, and meditation sessions with Victoria Enriquez in Glendale, Arizona to relieve stress, restore balance, and support your wellness journey.",
   phone: "602-754-6739",
   email: "meditationtimehome@gmail.com",
-  address: "2845 N Price Rd unit 33, Chandler, AZ 85224",
+  address: "3600 W Happy Valley Rd, Glendale, AZ 85310",
   calendlyUrl: "https://calendly.com/meditationtimehome",
   social: {
     facebook: "https://www.facebook.com/victoriawhatever",

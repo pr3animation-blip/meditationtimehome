@@ -28,7 +28,7 @@ import {
 export const metadata: Metadata = {
   title: "Healing Services",
   description: buildMetaDescription(
-    "Explore Reiki, signature energy work, and sound bath sessions in Chandler, Arizona. Compare service options and reserve your preferred session with Victoria."
+    "Explore Reiki, signature energy work, and sound bath sessions in Glendale, Arizona. Compare service options and reserve your preferred session with Victoria."
   ),
   alternates: {
     canonical: "/services",
@@ -48,10 +48,10 @@ const serviceIcons: Record<string, typeof HandPrayerIcon> = {
 }
 
 const specialtyIcons: Record<string, typeof BrainIcon> = {
-  "anxiety-treatment-in-chandler": BrainIcon,
-  "soundbath-session-in-chandler": MoonIcon,
-  "reiki-energy-healing-session-in-chandler": HeartAddIcon,
-  "chakra-healing-meditation-in-chandler": Yoga03Icon,
+  "anxiety-treatment-in-glendale": BrainIcon,
+  "soundbath-session-in-glendale": MoonIcon,
+  "reiki-energy-healing-session-in-glendale": HeartAddIcon,
+  "chakra-healing-meditation-in-glendale": Yoga03Icon,
 }
 
 const modalities = [
@@ -287,7 +287,7 @@ export default function ServicesPage() {
               Healing Specialties
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-muted-foreground">
-              Learn more about our specialized healing approaches in Chandler,
+              Learn more about our specialized healing approaches in Glendale,
               Arizona.
             </p>
           </ScrollReveal>

@@ -9,7 +9,7 @@ import { buildMetaDescription } from "@/lib/seo"
 export const metadata: Metadata = {
   title: "Meditation and Sound Healing Blog",
   description: buildMetaDescription(
-    "Read meditation, Reiki, and sound healing articles by Victoria Enriquez. Get practical wellness tips and guidance for your healing journey in Chandler, Arizona."
+    "Read meditation, Reiki, and sound healing articles by Victoria Enriquez. Get practical wellness tips and guidance for your healing journey in Glendale, Arizona."
   ),
   alternates: {
     canonical: "/blog",
@@ -35,7 +35,7 @@ export default function BlogPage() {
             <p className="text-lg leading-relaxed text-muted-foreground">
               Victoria Enriquez shares what she's learned from years of
               practicing Reiki, sound healing, and energy work at Meditation
-              TIME Home in Chandler, Arizona. Whether you're new to
+              TIME Home in Glendale, Arizona. Whether you're new to
               meditation or looking to deepen your practice, these articles
               offer practical guidance you can apply today — or experience
               firsthand in a session.

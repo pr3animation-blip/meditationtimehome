@@ -52,7 +52,7 @@ export async function generateMetadata({
   const canonicalPath = slug === "still-not-sure" ? "/still-not-sure" : `/${slug}`
   const metaDescription = buildMetaDescription(
     service.description,
-    "Book your healing session in Chandler, AZ today."
+    "Book your healing session in Glendale, AZ today."
   )
 
   return {

@@ -31,7 +31,7 @@ export async function generateMetadata({
     post.metaDescription ??
     buildMetaDescription(
       post.excerpt,
-      "Read the full article and book a wellness session in Chandler, AZ."
+      "Read the full article and book a wellness session in Glendale, AZ."
     )
   const metaTitle = post.metaTitle ?? post.title
 

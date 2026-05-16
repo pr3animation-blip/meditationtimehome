@@ -21,7 +21,7 @@ export function canonicalFor(path: string) {
 
 export function buildMetaDescription(
   baseDescription: string,
-  cta = "Book your Chandler, AZ session today."
+  cta = "Book your Glendale, AZ session today."
 ) {
   const clean = baseDescription.replace(/\s+/g, " ").trim()
   const withCta = clean.length < 130 ? `${clean} ${cta}`.trim() : clean
@@ -46,20 +46,20 @@ export function localBusinessSchema(path = "/", description?: string) {
     url: canonicalFor(path),
     description:
       description ??
-      "MEditation TIME offers Reiki, meditation, and sound healing services in Chandler, Arizona.",
+      "MEditation TIME offers Reiki, meditation, and sound healing services in Glendale, Arizona.",
     telephone: internationalPhone,
     email: siteConfig.email,
     image: [canonicalFor("/opengraph-image")],
     address: {
       "@type": "PostalAddress",
-      streetAddress: "2845 N Price Rd unit 33",
-      addressLocality: "Chandler",
+      streetAddress: "3600 W Happy Valley Rd",
+      addressLocality: "Glendale",
       addressRegion: "AZ",
-      postalCode: "85224",
+      postalCode: "85310",
       addressCountry: "US",
     },
     areaServed: [
-      { "@type": "City", name: "Chandler" },
+      { "@type": "City", name: "Glendale" },
       { "@type": "State", name: "Arizona" },
     ],
     sameAs: Object.values(siteConfig.social),
@@ -107,7 +107,7 @@ export function serviceSchema(service: Service) {
     },
     areaServed: {
       "@type": "City",
-      name: "Chandler",
+      name: "Glendale",
     },
     url: canonicalFor(`/${service.slug}`),
     offers: {
@@ -134,7 +134,7 @@ export function personSchema() {
     name: "Victoria Enriquez",
     jobTitle: "Certified Reiki Master and Sound Healing Practitioner",
     description:
-      "Certified Practitioner of USUI Reiki Energy, Sound Healing, and Tuning Fork sessions with a background in the medical field. Founder of MEditation TIME in Chandler, Arizona.",
+      "Certified Practitioner of USUI Reiki Energy, Sound Healing, and Tuning Fork sessions with a background in the medical field. Founder of MEditation TIME in Glendale, Arizona.",
     image: canonicalFor("/images/main.webp"),
     url: canonicalFor("/about"),
     worksFor: {
@@ -151,7 +151,7 @@ export function personSchema() {
     sameAs: Object.values(siteConfig.social),
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Chandler",
+      addressLocality: "Glendale",
       addressRegion: "AZ",
       addressCountry: "US",
     },
@@ -173,7 +173,7 @@ export function arizonaPageServiceSchema(page: ArizonaPage) {
     },
     areaServed: {
       "@type": "City",
-      name: "Chandler",
+      name: "Glendale",
     },
     url: canonicalFor(`/arizona/${page.slug}`),
   }

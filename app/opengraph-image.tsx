@@ -39,7 +39,7 @@ export default function OpenGraphImage() {
             Sound Healing, Reiki and Meditation
           </div>
           <div style={{ fontSize: 36, opacity: 0.86 }}>
-            Chandler, Arizona
+            Glendale, Arizona
           </div>
         </div>
         <div

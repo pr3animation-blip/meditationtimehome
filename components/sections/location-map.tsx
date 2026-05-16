@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/map"
 import { siteConfig } from "@/config/navigation"
 
-const COORDINATES = { lng: -111.8891, lat: 33.3475 }
+const COORDINATES = { lng: -112.1378, lat: 33.7115 }
 
 export function LocationMap() {
   const [mounted, setMounted] = useState(false)
